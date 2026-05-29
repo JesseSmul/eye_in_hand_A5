@@ -43,7 +43,11 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/eye_in_hand_pkg" TYPE PROGRAM RENAME "hmi_status" FILES "/home/student/Git-projects/eye_in_hand_A5/eye_in_hand_pkg/src/eye_in_hand_pkg/hmi_status.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/eye_in_hand_pkg" TYPE PROGRAM RENAME "hmi_main" FILES "/home/student/Git-projects/eye_in_hand_A5/eye_in_hand_pkg/src/eye_in_hand_pkg/hmi_main.py")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/eye_in_hand_pkg" TYPE DIRECTORY FILES "/home/student/Git-projects/eye_in_hand_A5/eye_in_hand_pkg/src/eye_in_hand_pkg/" FILES_MATCHING REGEX "/[^/]*\\.py$")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -52,26 +56,6 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/eye_in_hand_pkg" TYPE FILE FILES "/home/student/Git-projects/eye_in_hand_A5/eye_in_hand_pkg/src/eye_in_hand_pkg/avans.png")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/eye_in_hand_pkg" TYPE PROGRAM RENAME "hmi_status" FILES "/home/student/Git-projects/eye_in_hand_A5/eye_in_hand_pkg/src/eye_in_hand_pkg/hmi_status.py")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/eye_in_hand_pkg" TYPE PROGRAM RENAME "hmi_camera" FILES "/home/student/Git-projects/eye_in_hand_A5/eye_in_hand_pkg/src/eye_in_hand_pkg/hmi_camera.py")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/eye_in_hand_pkg" TYPE PROGRAM RENAME "hmi_bediening" FILES "/home/student/Git-projects/eye_in_hand_A5/eye_in_hand_pkg/src/eye_in_hand_pkg/hmi_bediening.py")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/eye_in_hand_pkg" TYPE PROGRAM RENAME "hmi_product" FILES "/home/student/Git-projects/eye_in_hand_A5/eye_in_hand_pkg/src/eye_in_hand_pkg/hmi_product.py")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/eye_in_hand_pkg" TYPE PROGRAM RENAME "hmi_calibratie" FILES "/home/student/Git-projects/eye_in_hand_A5/eye_in_hand_pkg/src/eye_in_hand_pkg/hmi_calibratie.py")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)

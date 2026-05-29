@@ -1,6 +1,9 @@
 source;share/eye_in_hand_pkg/hook/cmake_prefix_path.ps1
 source;share/eye_in_hand_pkg/hook/cmake_prefix_path.dsv
 source;share/eye_in_hand_pkg/hook/cmake_prefix_path.sh
+source;share/eye_in_hand_pkg/hook/pythonpath.ps1
+source;share/eye_in_hand_pkg/hook/pythonpath.dsv
+source;share/eye_in_hand_pkg/hook/pythonpath.sh
 source;share/eye_in_hand_pkg/local_setup.bash
 source;share/eye_in_hand_pkg/local_setup.dsv
 source;share/eye_in_hand_pkg/local_setup.ps1

@@ -24,6 +24,8 @@ setup(
     entry_points={
     'console_scripts': [
         'hmi_status = eye_in_hand_pkg.hmi_status:main',
+        'hmi_bediening = eye_in_hand_pkg.hmi_bediening:main',
+        'test_node = eye_in_hand_pkg.test:main',
         ],
     },
 )
