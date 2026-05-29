@@ -1,0 +1,15 @@
+/home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/ament_index/resource_index/package_run_dependencies/eye_in_hand_pkg
+/home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/ament_index/resource_index/parent_prefix_path/eye_in_hand_pkg
+/home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/eye_in_hand_pkg/environment/ament_prefix_path.sh
+/home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/eye_in_hand_pkg/environment/ament_prefix_path.dsv
+/home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/eye_in_hand_pkg/environment/path.sh
+/home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/eye_in_hand_pkg/environment/path.dsv
+/home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/eye_in_hand_pkg/local_setup.bash
+/home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/eye_in_hand_pkg/local_setup.sh
+/home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/eye_in_hand_pkg/local_setup.zsh
+/home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/eye_in_hand_pkg/local_setup.dsv
+/home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/eye_in_hand_pkg/package.dsv
+/home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/ament_index/resource_index/packages/eye_in_hand_pkg
+/home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/eye_in_hand_pkg/cmake/eye_in_hand_pkgConfig.cmake
+/home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/eye_in_hand_pkg/cmake/eye_in_hand_pkgConfig-version.cmake
+/home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/eye_in_hand_pkg/package.xml

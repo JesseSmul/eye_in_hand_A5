@@ -1,0 +1,9 @@
+/home/student/Git-projects/eye_in_hand_A5/build/eye_in_hand_pkg/CMakeFiles/uninstall.dir
+/home/student/Git-projects/eye_in_hand_A5/build/eye_in_hand_pkg/CMakeFiles/eye_in_hand_pkg_uninstall.dir
+/home/student/Git-projects/eye_in_hand_A5/build/eye_in_hand_pkg/CMakeFiles/test.dir
+/home/student/Git-projects/eye_in_hand_A5/build/eye_in_hand_pkg/CMakeFiles/edit_cache.dir
+/home/student/Git-projects/eye_in_hand_A5/build/eye_in_hand_pkg/CMakeFiles/rebuild_cache.dir
+/home/student/Git-projects/eye_in_hand_A5/build/eye_in_hand_pkg/CMakeFiles/list_install_components.dir
+/home/student/Git-projects/eye_in_hand_A5/build/eye_in_hand_pkg/CMakeFiles/install.dir
+/home/student/Git-projects/eye_in_hand_A5/build/eye_in_hand_pkg/CMakeFiles/install/local.dir
+/home/student/Git-projects/eye_in_hand_A5/build/eye_in_hand_pkg/CMakeFiles/install/strip.dir

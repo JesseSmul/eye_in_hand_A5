@@ -1,0 +1,4 @@
+source;share/eye_in_hand_pkg/local_setup.bash
+source;share/eye_in_hand_pkg/local_setup.dsv
+source;share/eye_in_hand_pkg/local_setup.sh
+source;share/eye_in_hand_pkg/local_setup.zsh
