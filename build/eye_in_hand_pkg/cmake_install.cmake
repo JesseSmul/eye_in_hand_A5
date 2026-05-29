@@ -43,6 +43,38 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/eye_in_hand_pkg" TYPE PROGRAM RENAME "hmi_status" FILES "/home/student/Git-projects/eye_in_hand_A5/eye_in_hand_pkg/src/eye_in_hand_pkg/hmi_status.py")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/eye_in_hand_pkg" TYPE FILE FILES "/home/student/Git-projects/eye_in_hand_A5/eye_in_hand_pkg/src/eye_in_hand_pkg/hmi_window.ui")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/eye_in_hand_pkg" TYPE FILE FILES "/home/student/Git-projects/eye_in_hand_A5/eye_in_hand_pkg/src/eye_in_hand_pkg/avans.png")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/eye_in_hand_pkg" TYPE PROGRAM RENAME "hmi_status" FILES "/home/student/Git-projects/eye_in_hand_A5/eye_in_hand_pkg/src/eye_in_hand_pkg/hmi_status.py")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/eye_in_hand_pkg" TYPE PROGRAM RENAME "hmi_camera" FILES "/home/student/Git-projects/eye_in_hand_A5/eye_in_hand_pkg/src/eye_in_hand_pkg/hmi_camera.py")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/eye_in_hand_pkg" TYPE PROGRAM RENAME "hmi_bediening" FILES "/home/student/Git-projects/eye_in_hand_A5/eye_in_hand_pkg/src/eye_in_hand_pkg/hmi_bediening.py")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/eye_in_hand_pkg" TYPE PROGRAM RENAME "hmi_product" FILES "/home/student/Git-projects/eye_in_hand_A5/eye_in_hand_pkg/src/eye_in_hand_pkg/hmi_product.py")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/eye_in_hand_pkg" TYPE PROGRAM RENAME "hmi_calibratie" FILES "/home/student/Git-projects/eye_in_hand_A5/eye_in_hand_pkg/src/eye_in_hand_pkg/hmi_calibratie.py")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/student/Git-projects/eye_in_hand_A5/build/eye_in_hand_pkg/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/eye_in_hand_pkg")
 endif()
 

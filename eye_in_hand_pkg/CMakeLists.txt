@@ -23,4 +23,49 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
+install(PROGRAMS
+  src/eye_in_hand_pkg/hmi_status.py
+  DESTINATION lib/${PROJECT_NAME}
+  RENAME hmi_status
+)
+
+install(FILES
+  src/eye_in_hand_pkg/hmi_window.ui
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+install(FILES
+  src/eye_in_hand_pkg/avans.png
+  DESTINATION lib/${PROJECT_NAME}
+)
+install(PROGRAMS
+  src/eye_in_hand_pkg/hmi_status.py
+  DESTINATION lib/${PROJECT_NAME}
+  RENAME hmi_status
+)
+
+install(PROGRAMS
+  src/eye_in_hand_pkg/hmi_camera.py
+  DESTINATION lib/${PROJECT_NAME}
+  RENAME hmi_camera
+)
+
+install(PROGRAMS
+  src/eye_in_hand_pkg/hmi_bediening.py
+  DESTINATION lib/${PROJECT_NAME}
+  RENAME hmi_bediening
+)
+
+install(PROGRAMS
+  src/eye_in_hand_pkg/hmi_product.py
+  DESTINATION lib/${PROJECT_NAME}
+  RENAME hmi_product
+)
+
+install(PROGRAMS
+  src/eye_in_hand_pkg/hmi_calibratie.py
+  DESTINATION lib/${PROJECT_NAME}
+  RENAME hmi_calibratie
+)
+
 ament_package()

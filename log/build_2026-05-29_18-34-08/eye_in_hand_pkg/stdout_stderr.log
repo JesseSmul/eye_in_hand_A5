@@ -25,12 +25,18 @@
 -- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)
 -- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)
 -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
 -- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
 -- Added test 'xmllint' to check XML markup files
--- Configuring done (5.1s)
+-- Configuring done (2.6s)
 -- Generating done (0.0s)
 -- Build files have been written to: /home/student/Git-projects/eye_in_hand_A5/build/eye_in_hand_pkg
 -- Install configuration: ""
+-- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/lib/eye_in_hand_pkg/hmi_status
+-- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/lib/eye_in_hand_pkg/hmi_window.ui
+-- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/lib/eye_in_hand_pkg/avans.png
 -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/ament_index/resource_index/package_run_dependencies/eye_in_hand_pkg
 -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/ament_index/resource_index/parent_prefix_path/eye_in_hand_pkg
 -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/eye_in_hand_pkg/environment/ament_prefix_path.sh

@@ -1,3 +1,11 @@
+/home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/lib/eye_in_hand_pkg/hmi_status
+/home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/lib/eye_in_hand_pkg/hmi_window.ui
+/home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/lib/eye_in_hand_pkg/avans.png
+/home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/lib/eye_in_hand_pkg/hmi_status
+/home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/lib/eye_in_hand_pkg/hmi_camera
+/home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/lib/eye_in_hand_pkg/hmi_bediening
+/home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/lib/eye_in_hand_pkg/hmi_product
+/home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/lib/eye_in_hand_pkg/hmi_calibratie
 /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/ament_index/resource_index/package_run_dependencies/eye_in_hand_pkg
 /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/ament_index/resource_index/parent_prefix_path/eye_in_hand_pkg
 /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/eye_in_hand_pkg/environment/ament_prefix_path.sh

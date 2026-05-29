@@ -1,0 +1,60 @@
+[0.028s] Invoking command in '/home/student/Git-projects/eye_in_hand_A5/build/eye_in_hand_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_industrial_ws/install/urdf_basics:/home/student/ros2_industrial_ws/install/transferframes:/home/student/ros2_industrial_ws/install/template_package_python:/home/student/ros2_industrial_ws/install/ros_industrial_utilities:/home/student/ros2_industrial_ws/install/ros_industrial_support:/home/student/ros2_industrial_ws/install/range_sensor:/home/student/ros2_industrial_ws/install/node_demo:/home/student/ros2_industrial_ws/install/manipulation:/home/student/ros2_industrial_ws/install/fanuc_robots:/home/student/my_ur_ws/install/my_ur_demo:/home/student/my_ur_ws/install/my_ur_bringup:/home/student/xarm_ws/install/uf_ros_lib:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/student/Git-projects/eye_in_hand_A5/eye_in_hand_pkg -DCMAKE_INSTALL_PREFIX=/home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg
+[0.133s] -- The C compiler identification is GNU 13.3.0
+[0.207s] -- The CXX compiler identification is GNU 13.3.0
+[0.229s] -- Detecting C compiler ABI info
+[0.358s] -- Detecting C compiler ABI info - done
+[0.370s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.372s] -- Detecting C compile features
+[0.372s] -- Detecting C compile features - done
+[0.390s] -- Detecting CXX compiler ABI info
+[0.530s] -- Detecting CXX compiler ABI info - done
+[0.544s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.545s] -- Detecting CXX compile features
+[0.545s] -- Detecting CXX compile features - done
+[0.557s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.825s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.174s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.303s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.343s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.388s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.444s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.619s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.633s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.920s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.978s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.045s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.269s] -- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.296s] -- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.374s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.649s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.649s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.651s] -- Added test 'lint_cmake' to check CMake code style
+[2.654s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.659s] -- Added test 'xmllint' to check XML markup files
+[2.665s] -- Configuring done (2.6s)
+[2.674s] -- Generating done (0.0s)
+[2.678s] -- Build files have been written to: /home/student/Git-projects/eye_in_hand_A5/build/eye_in_hand_pkg
+[2.695s] Invoked command in '/home/student/Git-projects/eye_in_hand_A5/build/eye_in_hand_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_industrial_ws/install/urdf_basics:/home/student/ros2_industrial_ws/install/transferframes:/home/student/ros2_industrial_ws/install/template_package_python:/home/student/ros2_industrial_ws/install/ros_industrial_utilities:/home/student/ros2_industrial_ws/install/ros_industrial_support:/home/student/ros2_industrial_ws/install/range_sensor:/home/student/ros2_industrial_ws/install/node_demo:/home/student/ros2_industrial_ws/install/manipulation:/home/student/ros2_industrial_ws/install/fanuc_robots:/home/student/my_ur_ws/install/my_ur_demo:/home/student/my_ur_ws/install/my_ur_bringup:/home/student/xarm_ws/install/uf_ros_lib:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/student/Git-projects/eye_in_hand_A5/eye_in_hand_pkg -DCMAKE_INSTALL_PREFIX=/home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg
+[2.698s] Invoking command in '/home/student/Git-projects/eye_in_hand_A5/build/eye_in_hand_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_industrial_ws/install/urdf_basics:/home/student/ros2_industrial_ws/install/transferframes:/home/student/ros2_industrial_ws/install/template_package_python:/home/student/ros2_industrial_ws/install/ros_industrial_utilities:/home/student/ros2_industrial_ws/install/ros_industrial_support:/home/student/ros2_industrial_ws/install/range_sensor:/home/student/ros2_industrial_ws/install/node_demo:/home/student/ros2_industrial_ws/install/manipulation:/home/student/ros2_industrial_ws/install/fanuc_robots:/home/student/my_ur_ws/install/my_ur_demo:/home/student/my_ur_ws/install/my_ur_bringup:/home/student/xarm_ws/install/uf_ros_lib:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/student/Git-projects/eye_in_hand_A5/build/eye_in_hand_pkg -- -j4 -l4
+[2.775s] Invoked command in '/home/student/Git-projects/eye_in_hand_A5/build/eye_in_hand_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_industrial_ws/install/urdf_basics:/home/student/ros2_industrial_ws/install/transferframes:/home/student/ros2_industrial_ws/install/template_package_python:/home/student/ros2_industrial_ws/install/ros_industrial_utilities:/home/student/ros2_industrial_ws/install/ros_industrial_support:/home/student/ros2_industrial_ws/install/range_sensor:/home/student/ros2_industrial_ws/install/node_demo:/home/student/ros2_industrial_ws/install/manipulation:/home/student/ros2_industrial_ws/install/fanuc_robots:/home/student/my_ur_ws/install/my_ur_demo:/home/student/my_ur_ws/install/my_ur_bringup:/home/student/xarm_ws/install/uf_ros_lib:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/student/Git-projects/eye_in_hand_A5/build/eye_in_hand_pkg -- -j4 -l4
+[2.799s] Invoking command in '/home/student/Git-projects/eye_in_hand_A5/build/eye_in_hand_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_industrial_ws/install/urdf_basics:/home/student/ros2_industrial_ws/install/transferframes:/home/student/ros2_industrial_ws/install/template_package_python:/home/student/ros2_industrial_ws/install/ros_industrial_utilities:/home/student/ros2_industrial_ws/install/ros_industrial_support:/home/student/ros2_industrial_ws/install/range_sensor:/home/student/ros2_industrial_ws/install/node_demo:/home/student/ros2_industrial_ws/install/manipulation:/home/student/ros2_industrial_ws/install/fanuc_robots:/home/student/my_ur_ws/install/my_ur_demo:/home/student/my_ur_ws/install/my_ur_bringup:/home/student/xarm_ws/install/uf_ros_lib:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/student/Git-projects/eye_in_hand_A5/build/eye_in_hand_pkg
+[2.814s] -- Install configuration: ""
+[2.815s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/lib/eye_in_hand_pkg/hmi_status
+[2.815s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/lib/eye_in_hand_pkg/hmi_window.ui
+[2.816s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/lib/eye_in_hand_pkg/avans.png
+[2.816s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/ament_index/resource_index/package_run_dependencies/eye_in_hand_pkg
+[2.816s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/ament_index/resource_index/parent_prefix_path/eye_in_hand_pkg
+[2.816s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/eye_in_hand_pkg/environment/ament_prefix_path.sh
+[2.817s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/eye_in_hand_pkg/environment/ament_prefix_path.dsv
+[2.818s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/eye_in_hand_pkg/environment/path.sh
+[2.818s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/eye_in_hand_pkg/environment/path.dsv
+[2.818s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/eye_in_hand_pkg/local_setup.bash
+[2.818s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/eye_in_hand_pkg/local_setup.sh
+[2.818s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/eye_in_hand_pkg/local_setup.zsh
+[2.818s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/eye_in_hand_pkg/local_setup.dsv
+[2.818s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/eye_in_hand_pkg/package.dsv
+[2.819s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/ament_index/resource_index/packages/eye_in_hand_pkg
+[2.819s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/eye_in_hand_pkg/cmake/eye_in_hand_pkgConfig.cmake
+[2.819s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/eye_in_hand_pkg/cmake/eye_in_hand_pkgConfig-version.cmake
+[2.819s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/eye_in_hand_pkg/package.xml
+[2.821s] Invoked command in '/home/student/Git-projects/eye_in_hand_A5/build/eye_in_hand_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_industrial_ws/install/urdf_basics:/home/student/ros2_industrial_ws/install/transferframes:/home/student/ros2_industrial_ws/install/template_package_python:/home/student/ros2_industrial_ws/install/ros_industrial_utilities:/home/student/ros2_industrial_ws/install/ros_industrial_support:/home/student/ros2_industrial_ws/install/range_sensor:/home/student/ros2_industrial_ws/install/node_demo:/home/student/ros2_industrial_ws/install/manipulation:/home/student/ros2_industrial_ws/install/fanuc_robots:/home/student/my_ur_ws/install/my_ur_demo:/home/student/my_ur_ws/install/my_ur_bringup:/home/student/xarm_ws/install/uf_ros_lib:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/student/Git-projects/eye_in_hand_A5/build/eye_in_hand_pkg
