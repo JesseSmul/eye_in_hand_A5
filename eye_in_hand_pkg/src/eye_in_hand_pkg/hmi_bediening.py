@@ -5,11 +5,13 @@ from std_srvs.srv import Trigger
 class HMIBediening(Node):
     def __init__(self):
         super().__init__('hmi_bediening')
-        self.get_logger().info('hmi_bediening node gestart')
-
+        
         self.start_client = self.create_client(Trigger, '/start_robot')
         self.stop_client = self.create_client(Trigger, '/stop_robot')
         self.reset_client = self.create_client(Trigger, '/reset_robot')
+        
+        self.get_logger().info('hmi_bediening node gestart')
+
 
     def call_service(self, client, name):
         if not client.wait_for_service(timeout_sec=0.5):
