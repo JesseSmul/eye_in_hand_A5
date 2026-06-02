@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/eye_in_hand_pkg" TYPE PROGRAM RENAME "hmi_main" FILES "/home/student/Git-projects/eye_in_hand_A5/eye_in_hand_pkg/src/eye_in_hand_pkg/hmi_main.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/eye_in_hand_pkg" TYPE PROGRAM RENAME "hmi_main" FILES "/home/student/Git-projects/eye_in_hand_A5/eye_in_hand_pkg/src/eye_in_hand_pkg/hmi/hmi_main.py")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -51,11 +51,11 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/eye_in_hand_pkg" TYPE FILE FILES "/home/student/Git-projects/eye_in_hand_A5/eye_in_hand_pkg/src/eye_in_hand_pkg/hmi_window.ui")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/eye_in_hand_pkg" TYPE FILE FILES "/home/student/Git-projects/eye_in_hand_A5/eye_in_hand_pkg/src/eye_in_hand_pkg/hmi/hmi_window.ui")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/eye_in_hand_pkg" TYPE FILE FILES "/home/student/Git-projects/eye_in_hand_A5/eye_in_hand_pkg/src/eye_in_hand_pkg/avans.png")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/eye_in_hand_pkg" TYPE FILE FILES "/home/student/Git-projects/eye_in_hand_A5/eye_in_hand_pkg/src/eye_in_hand_pkg/hmi/avans.png")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)

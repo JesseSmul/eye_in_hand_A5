@@ -20,7 +20,7 @@ if(BUILD_TESTING)
 endif()
 
 install(PROGRAMS
-  src/eye_in_hand_pkg/hmi_main.py
+  src/eye_in_hand_pkg/hmi/hmi_main.py
   DESTINATION lib/${PROJECT_NAME}
   RENAME hmi_main
 )
@@ -33,12 +33,12 @@ install(DIRECTORY
 )
 
 install(FILES
-  src/eye_in_hand_pkg/hmi_window.ui
+  src/eye_in_hand_pkg/hmi/hmi_window.ui
   DESTINATION lib/${PROJECT_NAME}
 )
 
 install(FILES
-  src/eye_in_hand_pkg/avans.png
+  src/eye_in_hand_pkg/hmi/avans.png
   DESTINATION lib/${PROJECT_NAME}
 )
 
