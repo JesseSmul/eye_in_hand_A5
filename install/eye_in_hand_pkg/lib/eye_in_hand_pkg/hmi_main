@@ -16,16 +16,26 @@ from eye_in_hand_pkg.hmi.hmi_status import HMIStatus
 from eye_in_hand_pkg.hmi.hmi_bediening import HMIBediening
 from eye_in_hand_pkg.hmi.hmi_product import HMIProduct
 from eye_in_hand_pkg.hmi.hmi_camera import HMICamera
+from eye_in_hand_pkg.hmi.hmi_calibratie import HMICalibratie
 
 
 class HMIWindow(QWidget):
-    def __init__(self, status_node, bediening_node, product_node, camera_node, executor):
+    def __init__(
+        self,
+        status_node,
+        bediening_node,
+        product_node,
+        camera_node,
+        calibratie_node,
+        executor
+    ):
         super().__init__()
 
         self.status_node = status_node
         self.bediening_node = bediening_node
         self.product_node = product_node
         self.camera_node = camera_node
+        self.calibratie_node = calibratie_node
         self.executor = executor
 
         ui_file = os.path.join(
@@ -42,7 +52,9 @@ class HMIWindow(QWidget):
 
         self.set_lamp_color("gray")
         self.set_status_text_design("Starting up")
+
         self.update_product_display()
+        self.update_calibratie_display()
 
         self.cameraLabel.setText("Wachten op camerabeeld...")
         self.cameraLabel.setAlignment(Qt.AlignCenter)
@@ -56,6 +68,7 @@ class HMIWindow(QWidget):
         self.update_status_display()
         self.update_product_display()
         self.update_camera_display()
+        self.update_calibratie_display()
 
     def update_status_display(self):
         status = self.status_node.latest_status
@@ -72,13 +85,17 @@ class HMIWindow(QWidget):
             self.set_lamp_color("red")
             self.set_status_text_design("Error")
 
-        elif status == "Stand-by":
+        elif status == "Warning":
             self.set_lamp_color("orange")
-            self.set_status_text_design("Stand-by")
+            self.set_status_text_design(f"Warning: {status}")
 
-        elif status == "Robot ready":
+        elif status == "Training":
             self.set_lamp_color("purple")
-            self.set_status_text_design("Robot ready")
+            self.set_status_text_design("Training mode")
+
+        elif status == "Stand-by":
+            self.set_lamp_color("yellow")
+            self.set_status_text_design("Stand-by")
 
         else:
             self.set_lamp_color("gray")
@@ -117,6 +134,17 @@ class HMIWindow(QWidget):
 
         except Exception as e:
             self.cameraLabel.setText(f"Camera fout: {e}")
+
+    def update_calibratie_display(self):
+        self.set_label_design(
+            self.xyzrobotLabel,
+            self.calibratie_node.get_robot_xyz_text()
+        )
+
+        self.set_label_design(
+            self.xyzcamLabel,
+            self.calibratie_node.get_camera_xyz_text()
+        )
 
     def set_lamp_color(self, color):
         self.statusLamp.setStyleSheet(f"""
@@ -182,12 +210,14 @@ def main():
     bediening_node = HMIBediening()
     product_node = HMIProduct()
     camera_node = HMICamera()
+    calibratie_node = HMICalibratie()
 
     executor = SingleThreadedExecutor()
     executor.add_node(status_node)
     executor.add_node(bediening_node)
     executor.add_node(product_node)
     executor.add_node(camera_node)
+    executor.add_node(calibratie_node)
 
     app = QApplication(sys.argv)
 
@@ -196,6 +226,7 @@ def main():
         bediening_node,
         product_node,
         camera_node,
+        calibratie_node,
         executor
     )
 
@@ -207,11 +238,13 @@ def main():
     executor.remove_node(bediening_node)
     executor.remove_node(product_node)
     executor.remove_node(camera_node)
+    executor.remove_node(calibratie_node)
 
     status_node.destroy_node()
     bediening_node.destroy_node()
     product_node.destroy_node()
     camera_node.destroy_node()
+    calibratie_node.destroy_node()
 
     rclpy.shutdown()
     sys.exit(exit_code)

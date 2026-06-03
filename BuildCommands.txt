@@ -3,7 +3,7 @@ cd /home/student/Git-projects/eye_in_hand_A5
 source /opt/ros/jazzy/setup.bash
 source install/setup.bash
 
-python3 eye_in_hand_pkg/src/eye_in_hand_pkg/test.py
+python3 eye_in_hand_pkg/src/eye_in_hand_pkg/hmi/test.py
 
 
 Start hmi_main:

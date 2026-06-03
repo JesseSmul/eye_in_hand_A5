@@ -329,9 +329,12 @@
      </widget>
     </item>
     <item>
-     <widget class="QPushButton" name="scButton">
+     <widget class="QPushButton" name="trainingButton">
       <property name="text">
-       <string>Single Cyclus</string>
+       <string>Training Mode</string>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
       </property>
      </widget>
     </item>

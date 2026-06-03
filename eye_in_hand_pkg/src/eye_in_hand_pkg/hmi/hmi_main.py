@@ -20,7 +20,15 @@ from eye_in_hand_pkg.hmi.hmi_calibratie import HMICalibratie
 
 
 class HMIWindow(QWidget):
-    def __init__(self, status_node, bediening_node, product_node, camera_node, calibratie_node, executor):
+    def __init__(
+        self,
+        status_node,
+        bediening_node,
+        product_node,
+        camera_node,
+        calibratie_node,
+        executor
+    ):
         super().__init__()
 
         self.status_node = status_node
@@ -40,11 +48,15 @@ class HMIWindow(QWidget):
         self.startButton.clicked.connect(self.bediening_node.start_robot)
         self.stopButton.clicked.connect(self.bediening_node.stop_robot)
         self.resetButton.clicked.connect(self.bediening_node.reset_robot)
-        self.respButton.clicked.connect(self.reset_product_counts)
+        self.respButton.clicked.connect(self.product_node.reset_product_counts)
+        self.calButton.clicked.connect(self.calibratie_node.calibrate)
+        
 
         self.set_lamp_color("gray")
         self.set_status_text_design("Starting up")
+
         self.update_product_display()
+        self.update_calibratie_display()
 
         self.cameraLabel.setText("Wachten op camerabeeld...")
         self.cameraLabel.setAlignment(Qt.AlignCenter)
@@ -58,6 +70,7 @@ class HMIWindow(QWidget):
         self.update_status_display()
         self.update_product_display()
         self.update_camera_display()
+        self.update_calibratie_display()
 
     def update_status_display(self):
         status = self.status_node.latest_status
@@ -76,12 +89,12 @@ class HMIWindow(QWidget):
 
         elif status == "Warning":
             self.set_lamp_color("orange")
-            self.set_status_text_design(f'Warning: {status}')
+            self.set_status_text_design(f"Warning: {status}")
 
         elif status == "Training":
             self.set_lamp_color("purple")
             self.set_status_text_design("Training mode")
-    
+
         elif status == "Stand-by":
             self.set_lamp_color("yellow")
             self.set_status_text_design("Stand-by")
@@ -123,6 +136,17 @@ class HMIWindow(QWidget):
 
         except Exception as e:
             self.cameraLabel.setText(f"Camera fout: {e}")
+
+    def update_calibratie_display(self):
+        self.set_label_design(
+            self.xyzrobotLabel,
+            self.calibratie_node.get_robot_xyz_text()
+        )
+
+        self.set_label_design(
+            self.xyzcamLabel,
+            self.calibratie_node.get_camera_xyz_text()
+        )
 
     def set_lamp_color(self, color):
         self.statusLamp.setStyleSheet(f"""
@@ -176,17 +200,6 @@ class HMIWindow(QWidget):
             f"Bak 4: {self.product_node.get_box_count(4)}"
         )
 
-    def update_xyz_display(self,):
-        self.set_label_design(
-            self.xyzrobotLabel,
-            f"X: {self.calibratie_node.xyzrobotLabel.text()}"
-        )
-        self.set_label_design(
-            self.xyzcamLabel,
-            f"Y: {self.calibratie_node.xyzcamLabel.text()}"
-        )
-
-
     def reset_product_counts(self):
         self.product_node.reset_counts()
         self.update_product_display()
@@ -199,12 +212,14 @@ def main():
     bediening_node = HMIBediening()
     product_node = HMIProduct()
     camera_node = HMICamera()
+    calibratie_node = HMICalibratie()
 
     executor = SingleThreadedExecutor()
     executor.add_node(status_node)
     executor.add_node(bediening_node)
     executor.add_node(product_node)
     executor.add_node(camera_node)
+    executor.add_node(calibratie_node)
 
     app = QApplication(sys.argv)
 
@@ -213,6 +228,7 @@ def main():
         bediening_node,
         product_node,
         camera_node,
+        calibratie_node,
         executor
     )
 
@@ -224,11 +240,13 @@ def main():
     executor.remove_node(bediening_node)
     executor.remove_node(product_node)
     executor.remove_node(camera_node)
+    executor.remove_node(calibratie_node)
 
     status_node.destroy_node()
     bediening_node.destroy_node()
     product_node.destroy_node()
     camera_node.destroy_node()
+    calibratie_node.destroy_node()
 
     rclpy.shutdown()
     sys.exit(exit_code)
