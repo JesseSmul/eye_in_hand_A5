@@ -2,26 +2,30 @@
 
 import sys
 import os
+import cv2
 
 import rclpy
 from rclpy.executors import SingleThreadedExecutor
 
 from PyQt5 import uic
 from PyQt5.QtWidgets import QApplication, QWidget
-from PyQt5.QtCore import QTimer
+from PyQt5.QtCore import QTimer, Qt
+from PyQt5.QtGui import QImage, QPixmap
 
 from eye_in_hand_pkg.hmi.hmi_status import HMIStatus
 from eye_in_hand_pkg.hmi.hmi_bediening import HMIBediening
 from eye_in_hand_pkg.hmi.hmi_product import HMIProduct
+from eye_in_hand_pkg.hmi.hmi_camera import HMICamera
 
 
 class HMIWindow(QWidget):
-    def __init__(self, status_node, bediening_node, product_node, executor):
+    def __init__(self, status_node, bediening_node, product_node, camera_node, executor):
         super().__init__()
 
         self.status_node = status_node
         self.bediening_node = bediening_node
         self.product_node = product_node
+        self.camera_node = camera_node
         self.executor = executor
 
         ui_file = os.path.join(
@@ -37,9 +41,11 @@ class HMIWindow(QWidget):
         self.respButton.clicked.connect(self.reset_product_counts)
 
         self.set_lamp_color("gray")
-
         self.set_status_text_design("Starting up")
         self.update_product_display()
+
+        self.cameraLabel.setText("Wachten op camerabeeld...")
+        self.cameraLabel.setAlignment(Qt.AlignCenter)
 
         self.ros_timer = QTimer()
         self.ros_timer.timeout.connect(self.update_ros)
@@ -49,6 +55,7 @@ class HMIWindow(QWidget):
         self.executor.spin_once(timeout_sec=0)
         self.update_status_display()
         self.update_product_display()
+        self.update_camera_display()
 
     def update_status_display(self):
         status = self.status_node.latest_status
@@ -76,6 +83,40 @@ class HMIWindow(QWidget):
         else:
             self.set_lamp_color("gray")
             self.set_status_text_design(status)
+
+    def update_camera_display(self):
+        frame = self.camera_node.get_latest_frame()
+
+        if frame is None:
+            return
+
+        try:
+            rgb_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+
+            height, width, channels = rgb_frame.shape
+            bytes_per_line = channels * width
+
+            qt_image = QImage(
+                rgb_frame.data,
+                width,
+                height,
+                bytes_per_line,
+                QImage.Format_RGB888
+            ).copy()
+
+            pixmap = QPixmap.fromImage(qt_image)
+
+            pixmap = pixmap.scaled(
+                self.cameraLabel.width(),
+                self.cameraLabel.height(),
+                Qt.KeepAspectRatio,
+                Qt.SmoothTransformation
+            )
+
+            self.cameraLabel.setPixmap(pixmap)
+
+        except Exception as e:
+            self.cameraLabel.setText(f"Camera fout: {e}")
 
     def set_lamp_color(self, color):
         self.statusLamp.setStyleSheet(f"""
@@ -140,14 +181,24 @@ def main():
     status_node = HMIStatus()
     bediening_node = HMIBediening()
     product_node = HMIProduct()
+    camera_node = HMICamera()
 
     executor = SingleThreadedExecutor()
     executor.add_node(status_node)
     executor.add_node(bediening_node)
     executor.add_node(product_node)
+    executor.add_node(camera_node)
 
     app = QApplication(sys.argv)
-    window = HMIWindow(status_node, bediening_node, product_node, executor)
+
+    window = HMIWindow(
+        status_node,
+        bediening_node,
+        product_node,
+        camera_node,
+        executor
+    )
+
     window.show()
 
     exit_code = app.exec_()
@@ -155,10 +206,12 @@ def main():
     executor.remove_node(status_node)
     executor.remove_node(bediening_node)
     executor.remove_node(product_node)
+    executor.remove_node(camera_node)
 
     status_node.destroy_node()
     bediening_node.destroy_node()
     product_node.destroy_node()
+    camera_node.destroy_node()
 
     rclpy.shutdown()
     sys.exit(exit_code)

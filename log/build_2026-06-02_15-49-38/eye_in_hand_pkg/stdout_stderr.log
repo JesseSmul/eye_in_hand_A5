@@ -1,0 +1,55 @@
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclpy: 7.1.11 (/opt/ros/jazzy/share/rclpy/cmake)
+-- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found std_srvs: 5.3.7 (/opt/ros/jazzy/share/std_srvs/cmake)
+-- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/student/Git-projects/eye_in_hand_A5/build/eye_in_hand_pkg
+-- Install configuration: ""
+-- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/lib/eye_in_hand_pkg/hmi_main
+-- Up-to-date: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/lib/python3.12/site-packages/eye_in_hand_pkg
+-- Up-to-date: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/lib/python3.12/site-packages/eye_in_hand_pkg/hmi
+-- Up-to-date: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/lib/python3.12/site-packages/eye_in_hand_pkg/hmi/hmi_calibratie.py
+-- Up-to-date: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/lib/python3.12/site-packages/eye_in_hand_pkg/hmi/hmi_status.py
+-- Up-to-date: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/lib/python3.12/site-packages/eye_in_hand_pkg/hmi/test.py
+-- Up-to-date: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/lib/python3.12/site-packages/eye_in_hand_pkg/hmi/__init__.py
+-- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/lib/python3.12/site-packages/eye_in_hand_pkg/hmi/hmi_main.py
+-- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/lib/python3.12/site-packages/eye_in_hand_pkg/hmi/hmi_camera.py
+-- Up-to-date: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/lib/python3.12/site-packages/eye_in_hand_pkg/hmi/hmi_bediening.py
+-- Up-to-date: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/lib/python3.12/site-packages/eye_in_hand_pkg/hmi/hmi_product.py
+-- Up-to-date: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/lib/python3.12/site-packages/eye_in_hand_pkg/vision
+-- Up-to-date: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/lib/python3.12/site-packages/eye_in_hand_pkg/robot
+-- Up-to-date: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/lib/python3.12/site-packages/eye_in_hand_pkg/__init__.py
+-- Up-to-date: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/lib/eye_in_hand_pkg/hmi_window.ui
+-- Up-to-date: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/lib/eye_in_hand_pkg/avans.png
+-- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/ament_index/resource_index/package_run_dependencies/eye_in_hand_pkg
+-- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/ament_index/resource_index/parent_prefix_path/eye_in_hand_pkg
+-- Up-to-date: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/eye_in_hand_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/eye_in_hand_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/eye_in_hand_pkg/environment/path.sh
+-- Up-to-date: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/eye_in_hand_pkg/environment/path.dsv
+-- Up-to-date: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/eye_in_hand_pkg/local_setup.bash
+-- Up-to-date: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/eye_in_hand_pkg/local_setup.sh
+-- Up-to-date: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/eye_in_hand_pkg/local_setup.zsh
+-- Up-to-date: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/eye_in_hand_pkg/local_setup.dsv
+-- Up-to-date: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/eye_in_hand_pkg/package.dsv
+-- Up-to-date: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/ament_index/resource_index/packages/eye_in_hand_pkg
+-- Up-to-date: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/eye_in_hand_pkg/cmake/eye_in_hand_pkgConfig.cmake
+-- Up-to-date: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/eye_in_hand_pkg/cmake/eye_in_hand_pkgConfig-version.cmake
+-- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/share/eye_in_hand_pkg/package.xml

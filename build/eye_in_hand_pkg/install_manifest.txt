@@ -2,6 +2,7 @@
 /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/lib/python3.12/site-packages/eye_in_hand_pkg/hmi/hmi_calibratie.py
 /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/lib/python3.12/site-packages/eye_in_hand_pkg/hmi/hmi_status.py
 /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/lib/python3.12/site-packages/eye_in_hand_pkg/hmi/test.py
+/home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/lib/python3.12/site-packages/eye_in_hand_pkg/hmi/test_camera_pub.py
 /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/lib/python3.12/site-packages/eye_in_hand_pkg/hmi/__init__.py
 /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/lib/python3.12/site-packages/eye_in_hand_pkg/hmi/hmi_main.py
 /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_pkg/lib/python3.12/site-packages/eye_in_hand_pkg/hmi/hmi_camera.py

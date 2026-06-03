@@ -262,6 +262,9 @@ OPENSSL_INCLUDE_DIR:PATH=/usr/include
 //Path to a library.
 OPENSSL_SSL_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libssl.so
 
+//The directory containing a CMake configuration file for OpenCV.
+OpenCV_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/opencv4
+
 //Arguments to supply to pkg-config
 PKG_CONFIG_ARGN:STRING=
 
@@ -366,6 +369,9 @@ ament_xmllint_BIN:FILEPATH=/opt/ros/jazzy/bin/ament_xmllint
 
 //The directory containing a CMake configuration file for builtin_interfaces.
 builtin_interfaces_DIR:PATH=/opt/ros/jazzy/share/builtin_interfaces/cmake
+
+//The directory containing a CMake configuration file for cv_bridge.
+cv_bridge_DIR:PATH=/opt/ros/jazzy/share/cv_bridge/cmake
 
 //Value Computed by CMake
 eye_in_hand_pkg_BINARY_DIR:STATIC=/home/student/Git-projects/eye_in_hand_A5/build/eye_in_hand_pkg
