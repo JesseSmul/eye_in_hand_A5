@@ -23,7 +23,7 @@ class TestCameraPublisher(Node):
         self.get_logger().info('Test camera publisher gestart op /beeld_camera')
 
     def publish_image(self):
-        image = np.zeros((480, 640, 3), dtype=np.uint8)
+        image = np.zeros((431, 751, 3), dtype=np.uint8)
 
         x = 50 + (self.counter % 500)
 

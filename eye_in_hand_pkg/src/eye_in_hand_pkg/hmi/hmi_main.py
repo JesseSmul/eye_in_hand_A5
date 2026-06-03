@@ -16,16 +16,18 @@ from eye_in_hand_pkg.hmi.hmi_status import HMIStatus
 from eye_in_hand_pkg.hmi.hmi_bediening import HMIBediening
 from eye_in_hand_pkg.hmi.hmi_product import HMIProduct
 from eye_in_hand_pkg.hmi.hmi_camera import HMICamera
+from eye_in_hand_pkg.hmi.hmi_calibratie import HMICalibratie
 
 
 class HMIWindow(QWidget):
-    def __init__(self, status_node, bediening_node, product_node, camera_node, executor):
+    def __init__(self, status_node, bediening_node, product_node, camera_node, calibratie_node, executor):
         super().__init__()
 
         self.status_node = status_node
         self.bediening_node = bediening_node
         self.product_node = product_node
         self.camera_node = camera_node
+        self.calibratie_node = calibratie_node
         self.executor = executor
 
         ui_file = os.path.join(
@@ -72,13 +74,17 @@ class HMIWindow(QWidget):
             self.set_lamp_color("red")
             self.set_status_text_design("Error")
 
-        elif status == "Stand-by":
+        elif status == "Warning":
             self.set_lamp_color("orange")
-            self.set_status_text_design("Stand-by")
+            self.set_status_text_design(f'Warning: {status}')
 
-        elif status == "Robot ready":
+        elif status == "Training":
             self.set_lamp_color("purple")
-            self.set_status_text_design("Robot ready")
+            self.set_status_text_design("Training mode")
+    
+        elif status == "Stand-by":
+            self.set_lamp_color("yellow")
+            self.set_status_text_design("Stand-by")
 
         else:
             self.set_lamp_color("gray")
@@ -169,6 +175,17 @@ class HMIWindow(QWidget):
             self.valueBox4,
             f"Bak 4: {self.product_node.get_box_count(4)}"
         )
+
+    def update_xyz_display(self,):
+        self.set_label_design(
+            self.xyzrobotLabel,
+            f"X: {self.calibratie_node.xyzrobotLabel.text()}"
+        )
+        self.set_label_design(
+            self.xyzcamLabel,
+            f"Y: {self.calibratie_node.xyzcamLabel.text()}"
+        )
+
 
     def reset_product_counts(self):
         self.product_node.reset_counts()
