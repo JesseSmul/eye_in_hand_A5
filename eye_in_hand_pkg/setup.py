@@ -25,7 +25,13 @@ setup(
     'console_scripts': [
         'hmi_status = eye_in_hand_pkg.hmi_status:main',
         'hmi_bediening = eye_in_hand_pkg.hmi_bediening:main',
-        'test_node = eye_in_hand_pkg.test:main',
+        'hmi_calibratie = eye_in_hand_pkg.hmi_calibratie:main',
+        'robot_bediening = eye_in_hand_pkg.robot_bediening:main',
+        'hmi_main = eye_in_hand_pkg.hmi_main:main',
+        'hmi_camera = eye_in_hand_pkg.hmi_camera:main',
+        'hmi_product = eye_in_hand_pkg.hmi_product:main',
+        'robot_main = eye_in_hand_pkg.robot_main:main',
+        'robot_product = eye_in_hand_pkg.robot_product:main',
         ],
     },
 )

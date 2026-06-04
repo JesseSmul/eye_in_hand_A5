@@ -49,8 +49,14 @@ class HMIWindow(QWidget):
         self.stopButton.clicked.connect(self.bediening_node.stop_robot)
         self.resetButton.clicked.connect(self.bediening_node.reset_robot)
         self.respButton.clicked.connect(self.reset_product_counts)
+        self.calButton.clicked.connect(self.calibratie_node.calibrate)
+
+        self.trainingButton.setCheckable(True)
+        self.trainingButton.setText("Training UIT")
+        self.trainingButton.toggled.connect(self.training_mode_changed)
 
         self.set_lamp_color("gray")
+        self.set_training_lamp_color("gray")
         self.set_status_text_design("Starting up")
 
         self.update_product_display()
@@ -69,6 +75,18 @@ class HMIWindow(QWidget):
         self.update_product_display()
         self.update_camera_display()
         self.update_calibratie_display()
+
+    def training_mode_changed(self, checked):
+        self.bediening_node.set_training_mode(checked)
+
+        if checked:
+            self.trainingButton.setText("Training AAN")
+            self.set_training_lamp_color("purple")
+            self.set_status_text_design("Training mode")
+        else:
+            self.trainingButton.setText("Training UIT")
+            self.set_training_lamp_color("gray")
+            self.set_status_text_design("Training uit")
 
     def update_status_display(self):
         status = self.status_node.latest_status
@@ -148,6 +166,15 @@ class HMIWindow(QWidget):
 
     def set_lamp_color(self, color):
         self.statusLamp.setStyleSheet(f"""
+            QLabel {{
+                background-color: {color};
+                border-radius: 20px;
+                border: 1px solid black;
+            }}
+        """)
+
+    def set_training_lamp_color(self, color):
+        self.trainingLamp.setStyleSheet(f"""
             QLabel {{
                 background-color: {color};
                 border-radius: 20px;

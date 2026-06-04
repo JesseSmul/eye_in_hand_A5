@@ -19,6 +19,7 @@ class RobotTest(Node):
         self.create_service(Trigger, '/start_robot', self.start_callback)
         self.create_service(Trigger, '/stop_robot', self.stop_callback)
         self.create_service(Trigger, '/reset_robot', self.reset_callback)
+        self.create_service(Trigger, '/training_mode', self.training_callback)
 
         self.get_logger().info("Robot test services gestart")
 
@@ -50,6 +51,13 @@ class RobotTest(Node):
 
         response.success = True
         response.message = "Robot gereset"
+        return response
+
+    def training_callback(self, request, response):
+        self.publish_status("Training mode")
+
+        response.success = True
+        response.message = "Training mode gestart"
         return response
 
 
