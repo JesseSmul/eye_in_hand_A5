@@ -6,6 +6,9 @@ class HMIProduct(Node):
     def __init__(self):
         super().__init__('hmi_product')
 
+#----------------------------------------------------------------------
+# Subscriber van de sorted_box topic, houdt het aantal gesorteerde producten per bak bij
+
         self.box_counts = {
             1: 0,
             2: 0,

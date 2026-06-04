@@ -6,6 +6,9 @@ class HMIBediening(Node):
     def __init__(self):
         super().__init__('hmi_bediening')
 
+#----------------------------------------------------------------------
+# Clients voor de bediening services
+
         self.start_client = self.create_client(Trigger, '/start_robot')
         self.stop_client = self.create_client(Trigger, '/stop_robot')
         self.reset_client = self.create_client(Trigger, '/reset_robot')
@@ -41,6 +44,9 @@ class HMIBediening(Node):
             )
         except Exception as e:
             self.get_logger().error(f"Fout bij {name}: {e}")
+
+#----------------------------------------------------------------------
+# Functies om de services aan te roepen
 
     def start_robot(self):
         self.call_service(self.start_client, '/start_robot')

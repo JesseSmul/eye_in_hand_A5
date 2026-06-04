@@ -76,6 +76,9 @@ class HMIWindow(QWidget):
         self.update_camera_display()
         self.update_calibratie_display()
 
+#----------------------------------------------------------------------
+# Training mode toggle past de training mode aan in de HMI
+
     def training_mode_changed(self, checked):
         self.bediening_node.set_training_mode(checked)
 
@@ -87,6 +90,9 @@ class HMIWindow(QWidget):
             self.trainingButton.setText("Training UIT")
             self.set_training_lamp_color("gray")
             self.set_status_text_design("Training uit")
+
+#----------------------------------------------------------------------
+# Status display update past de kleur van de status-lamp en de tekst aan op basis van de laatste status die is ontvangen van de status_node.
 
     def update_status_display(self):
         status = self.status_node.latest_status
@@ -118,6 +124,9 @@ class HMIWindow(QWidget):
         else:
             self.set_lamp_color("gray")
             self.set_status_text_design(status)
+
+#----------------------------------------------------------------------
+# Camera display update zet het laatste camerabeeld om naar een QPixmap en toont het in de cameraLabel.
 
     def update_camera_display(self):
         frame = self.camera_node.get_latest_frame()
@@ -153,6 +162,9 @@ class HMIWindow(QWidget):
         except Exception as e:
             self.cameraLabel.setText(f"Camera fout: {e}")
 
+#----------------------------------------------------------------------
+# Calibratie display update haalt de laatste robot- en camera-positie op van de calibratie_node en toont deze in de respectievelijke labels.
+
     def update_calibratie_display(self):
         self.set_label_design(
             self.xyzrobotLabel,
@@ -163,6 +175,9 @@ class HMIWindow(QWidget):
             self.xyzcamLabel,
             self.calibratie_node.get_camera_xyz_text()
         )
+
+#----------------------------------------------------------------------
+# Zet de style van de status- en training-lampen
 
     def set_lamp_color(self, color):
         self.statusLamp.setStyleSheet(f"""
@@ -181,6 +196,9 @@ class HMIWindow(QWidget):
                 border: 1px solid black;
             }}
         """)
+
+#----------------------------------------------------------------------
+# Algemene functie om de stijl van labels aan te passen, gebruikt voor status- en productlabels
 
     def set_label_design(self, label, text, background="#FFFFFF", text_color="black"):
         label.setText(text)
@@ -203,6 +221,9 @@ class HMIWindow(QWidget):
             background,
             text_color
         )
+
+#----------------------------------------------------------------------
+# Update product display haalt het aantal gesorteerde producten per bak op van de product_node en toont deze in de valueBox-labels.
 
     def update_product_display(self):
         self.set_label_design(
