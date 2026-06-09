@@ -1,0 +1,276 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-959c394888769ebce865.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				},
+				{
+					"build" : "my_robotiq_controller__py",
+					"jsonFile" : "directory-my_robotiq_controller__py-fc5f92b3f25b3175b10d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/student/Git-projects/eye_in_hand_A5/build/my_robotiq_controller/my_robotiq_controller__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "my_robotiq_controller__rs",
+					"jsonFile" : "directory-my_robotiq_controller__rs-236679a48e071ed2e2e3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/student/Git-projects/eye_in_hand_A5/build/my_robotiq_controller/my_robotiq_controller__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "my_robotiq_controller",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_my_robotiq_controller_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_my_robotiq_controller_egg-134996d941c472aeabb3.json",
+					"name" : "ament_cmake_python_build_my_robotiq_controller_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_my_robotiq_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_my_robotiq_controller-b581c50f438a8ffc70eb.json",
+					"name" : "ament_cmake_python_copy_my_robotiq_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_robotiq_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robotiq_controller-d36a6dd21492dd35c74a.json",
+					"name" : "my_robotiq_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_robotiq_controller__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robotiq_controller__cpp-85f7ac2d85aa860b0c0f.json",
+					"name" : "my_robotiq_controller__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "my_robotiq_controller__py::@850b174ae1fc2aedb89f",
+					"jsonFile" : "target-my_robotiq_controller__py-7da2071d691c21616335.json",
+					"name" : "my_robotiq_controller__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_robotiq_controller__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robotiq_controller__rosidl_generator_c-993d98aaca5fabf513fc.json",
+					"name" : "my_robotiq_controller__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_robotiq_controller__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robotiq_controller__rosidl_generator_py-cf8dda36c2c208f28c25.json",
+					"name" : "my_robotiq_controller__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_robotiq_controller__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robotiq_controller__rosidl_generator_type_description-c29796687a70d07a2b52.json",
+					"name" : "my_robotiq_controller__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_robotiq_controller__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robotiq_controller__rosidl_typesupport_c-3347824e2abc7e453276.json",
+					"name" : "my_robotiq_controller__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_robotiq_controller__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robotiq_controller__rosidl_typesupport_cpp-568f1cdd32c08172cd51.json",
+					"name" : "my_robotiq_controller__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_robotiq_controller__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robotiq_controller__rosidl_typesupport_fastrtps_c-feaf0f35a7746e7b3f0b.json",
+					"name" : "my_robotiq_controller__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_robotiq_controller__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robotiq_controller__rosidl_typesupport_fastrtps_cpp-e6a3a4e9a5d88bbab3fa.json",
+					"name" : "my_robotiq_controller__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_robotiq_controller__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robotiq_controller__rosidl_typesupport_introspection_c-c6b9a51f53710e84365b.json",
+					"name" : "my_robotiq_controller__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_robotiq_controller__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robotiq_controller__rosidl_typesupport_introspection_cpp-81693d473673445dd2eb.json",
+					"name" : "my_robotiq_controller__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "my_robotiq_controller__rs::@467780a3688b551e5f85",
+					"jsonFile" : "target-my_robotiq_controller__rs-0529e3299663b3e93a5a.json",
+					"name" : "my_robotiq_controller__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_robotiq_controller_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robotiq_controller_s__rosidl_typesupport_c-5cb87422e769a6fcf4ec.json",
+					"name" : "my_robotiq_controller_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_robotiq_controller_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robotiq_controller_s__rosidl_typesupport_fastrtps_c-f0ab916e7801872d24a7.json",
+					"name" : "my_robotiq_controller_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_robotiq_controller_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robotiq_controller_s__rosidl_typesupport_introspection_c-c84940f052c58254147b.json",
+					"name" : "my_robotiq_controller_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_robotiq_controller_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robotiq_controller_uninstall-26a16c827c764b394f3b.json",
+					"name" : "my_robotiq_controller_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotiq_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotiq_controller-f5cf12cee264a7c5f410.json",
+					"name" : "robotiq_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-a72d025cac1ec1bbf30b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/student/Git-projects/eye_in_hand_A5/build/my_robotiq_controller",
+		"source" : "/home/student/Git-projects/eye_in_hand_A5/src/ros2_robotiq_gripper/my_robotiq_controller"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

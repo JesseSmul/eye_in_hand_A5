@@ -1,0 +1,45 @@
+running egg_info
+creating ../../../build/robotiq_app/robotiq_app.egg-info
+writing ../../../build/robotiq_app/robotiq_app.egg-info/PKG-INFO
+writing dependency_links to ../../../build/robotiq_app/robotiq_app.egg-info/dependency_links.txt
+writing entry points to ../../../build/robotiq_app/robotiq_app.egg-info/entry_points.txt
+writing requirements to ../../../build/robotiq_app/robotiq_app.egg-info/requires.txt
+writing top-level names to ../../../build/robotiq_app/robotiq_app.egg-info/top_level.txt
+writing manifest file '../../../build/robotiq_app/robotiq_app.egg-info/SOURCES.txt'
+reading manifest file '../../../build/robotiq_app/robotiq_app.egg-info/SOURCES.txt'
+writing manifest file '../../../build/robotiq_app/robotiq_app.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/student/Git-projects/eye_in_hand_A5/build/robotiq_app/build
+creating /home/student/Git-projects/eye_in_hand_A5/build/robotiq_app/build/lib
+creating /home/student/Git-projects/eye_in_hand_A5/build/robotiq_app/build/lib/robotiq_app
+copying robotiq_app/gripper_gui_old.py -> /home/student/Git-projects/eye_in_hand_A5/build/robotiq_app/build/lib/robotiq_app
+copying robotiq_app/__init__.py -> /home/student/Git-projects/eye_in_hand_A5/build/robotiq_app/build/lib/robotiq_app
+copying robotiq_app/control_gripper_new.py -> /home/student/Git-projects/eye_in_hand_A5/build/robotiq_app/build/lib/robotiq_app
+copying robotiq_app/control_gripper.py -> /home/student/Git-projects/eye_in_hand_A5/build/robotiq_app/build/lib/robotiq_app
+copying robotiq_app/gripper_gui.py -> /home/student/Git-projects/eye_in_hand_A5/build/robotiq_app/build/lib/robotiq_app
+running install
+running install_lib
+creating /home/student/Git-projects/eye_in_hand_A5/install/robotiq_app/lib/python3.12/site-packages/robotiq_app
+copying /home/student/Git-projects/eye_in_hand_A5/build/robotiq_app/build/lib/robotiq_app/gripper_gui_old.py -> /home/student/Git-projects/eye_in_hand_A5/install/robotiq_app/lib/python3.12/site-packages/robotiq_app
+copying /home/student/Git-projects/eye_in_hand_A5/build/robotiq_app/build/lib/robotiq_app/__init__.py -> /home/student/Git-projects/eye_in_hand_A5/install/robotiq_app/lib/python3.12/site-packages/robotiq_app
+copying /home/student/Git-projects/eye_in_hand_A5/build/robotiq_app/build/lib/robotiq_app/control_gripper_new.py -> /home/student/Git-projects/eye_in_hand_A5/install/robotiq_app/lib/python3.12/site-packages/robotiq_app
+copying /home/student/Git-projects/eye_in_hand_A5/build/robotiq_app/build/lib/robotiq_app/control_gripper.py -> /home/student/Git-projects/eye_in_hand_A5/install/robotiq_app/lib/python3.12/site-packages/robotiq_app
+copying /home/student/Git-projects/eye_in_hand_A5/build/robotiq_app/build/lib/robotiq_app/gripper_gui.py -> /home/student/Git-projects/eye_in_hand_A5/install/robotiq_app/lib/python3.12/site-packages/robotiq_app
+byte-compiling /home/student/Git-projects/eye_in_hand_A5/install/robotiq_app/lib/python3.12/site-packages/robotiq_app/gripper_gui_old.py to gripper_gui_old.cpython-312.pyc
+byte-compiling /home/student/Git-projects/eye_in_hand_A5/install/robotiq_app/lib/python3.12/site-packages/robotiq_app/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/student/Git-projects/eye_in_hand_A5/install/robotiq_app/lib/python3.12/site-packages/robotiq_app/control_gripper_new.py to control_gripper_new.cpython-312.pyc
+byte-compiling /home/student/Git-projects/eye_in_hand_A5/install/robotiq_app/lib/python3.12/site-packages/robotiq_app/control_gripper.py to control_gripper.cpython-312.pyc
+byte-compiling /home/student/Git-projects/eye_in_hand_A5/install/robotiq_app/lib/python3.12/site-packages/robotiq_app/gripper_gui.py to gripper_gui.cpython-312.pyc
+running install_data
+creating /home/student/Git-projects/eye_in_hand_A5/install/robotiq_app/share/ament_index
+creating /home/student/Git-projects/eye_in_hand_A5/install/robotiq_app/share/ament_index/resource_index
+creating /home/student/Git-projects/eye_in_hand_A5/install/robotiq_app/share/ament_index/resource_index/packages
+copying resource/robotiq_app -> /home/student/Git-projects/eye_in_hand_A5/install/robotiq_app/share/ament_index/resource_index/packages
+copying package.xml -> /home/student/Git-projects/eye_in_hand_A5/install/robotiq_app/share/robotiq_app
+running install_egg_info
+Copying ../../../build/robotiq_app/robotiq_app.egg-info to /home/student/Git-projects/eye_in_hand_A5/install/robotiq_app/lib/python3.12/site-packages/robotiq_app-0.0.0-py3.12.egg-info
+running install_scripts
+Installing control_gripper script to /home/student/Git-projects/eye_in_hand_A5/install/robotiq_app/lib/robotiq_app
+Installing gripper_gui script to /home/student/Git-projects/eye_in_hand_A5/install/robotiq_app/lib/robotiq_app
+writing list of installed files to '/home/student/Git-projects/eye_in_hand_A5/build/robotiq_app/install.log'

@@ -1,0 +1,15 @@
+/home/student/Git-projects/eye_in_hand_A5/install/my_ur/share/ament_index/resource_index/package_run_dependencies/my_ur
+/home/student/Git-projects/eye_in_hand_A5/install/my_ur/share/ament_index/resource_index/parent_prefix_path/my_ur
+/home/student/Git-projects/eye_in_hand_A5/install/my_ur/share/my_ur/environment/ament_prefix_path.sh
+/home/student/Git-projects/eye_in_hand_A5/install/my_ur/share/my_ur/environment/ament_prefix_path.dsv
+/home/student/Git-projects/eye_in_hand_A5/install/my_ur/share/my_ur/environment/path.sh
+/home/student/Git-projects/eye_in_hand_A5/install/my_ur/share/my_ur/environment/path.dsv
+/home/student/Git-projects/eye_in_hand_A5/install/my_ur/share/my_ur/local_setup.bash
+/home/student/Git-projects/eye_in_hand_A5/install/my_ur/share/my_ur/local_setup.sh
+/home/student/Git-projects/eye_in_hand_A5/install/my_ur/share/my_ur/local_setup.zsh
+/home/student/Git-projects/eye_in_hand_A5/install/my_ur/share/my_ur/local_setup.dsv
+/home/student/Git-projects/eye_in_hand_A5/install/my_ur/share/my_ur/package.dsv
+/home/student/Git-projects/eye_in_hand_A5/install/my_ur/share/ament_index/resource_index/packages/my_ur
+/home/student/Git-projects/eye_in_hand_A5/install/my_ur/share/my_ur/cmake/my_urConfig.cmake
+/home/student/Git-projects/eye_in_hand_A5/install/my_ur/share/my_ur/cmake/my_urConfig-version.cmake
+/home/student/Git-projects/eye_in_hand_A5/install/my_ur/share/my_ur/package.xml

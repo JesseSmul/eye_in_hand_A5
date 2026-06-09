@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-cafce94417611b98949f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "eye_in_hand_interfaces__py",
+					"jsonFile" : "directory-eye_in_hand_interfaces__py-532c2d6ad84751977aa3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/student/Git-projects/eye_in_hand_A5/build/eye_in_hand_interfaces/eye_in_hand_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "eye_in_hand_interfaces__rs",
+					"jsonFile" : "directory-eye_in_hand_interfaces__rs-df5a44e10be71a94319f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/student/Git-projects/eye_in_hand_A5/build/eye_in_hand_interfaces/eye_in_hand_interfaces__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "eye_in_hand_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_eye_in_hand_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_eye_in_hand_interfaces_egg-4c388c7c7e4b9b4776f6.json",
+					"name" : "ament_cmake_python_build_eye_in_hand_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_eye_in_hand_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_eye_in_hand_interfaces-9b177e0893ba85490e62.json",
+					"name" : "ament_cmake_python_symlink_eye_in_hand_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "eye_in_hand_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-eye_in_hand_interfaces-74b39cc3c500312bdf3b.json",
+					"name" : "eye_in_hand_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "eye_in_hand_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-eye_in_hand_interfaces__cpp-d7f3ebf2b0d41fc8d1f2.json",
+					"name" : "eye_in_hand_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "eye_in_hand_interfaces__py::@251ff245eb147604f2b7",
+					"jsonFile" : "target-eye_in_hand_interfaces__py-a6d52e4e350a30172954.json",
+					"name" : "eye_in_hand_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "eye_in_hand_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-eye_in_hand_interfaces__rosidl_generator_c-8a4a48643594f120f115.json",
+					"name" : "eye_in_hand_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "eye_in_hand_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-eye_in_hand_interfaces__rosidl_generator_py-b3246e3ebb2ba9828fa3.json",
+					"name" : "eye_in_hand_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "eye_in_hand_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-eye_in_hand_interfaces__rosidl_generator_type_description-1e285854abd6a383bede.json",
+					"name" : "eye_in_hand_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "eye_in_hand_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-eye_in_hand_interfaces__rosidl_typesupport_c-ae778dcc0fbaab1870ad.json",
+					"name" : "eye_in_hand_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "eye_in_hand_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-eye_in_hand_interfaces__rosidl_typesupport_cpp-2df1325e7c7d7bc97843.json",
+					"name" : "eye_in_hand_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "eye_in_hand_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-eye_in_hand_interfaces__rosidl_typesupport_fastrtps_c-73dba40c07b85ad95e8e.json",
+					"name" : "eye_in_hand_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "eye_in_hand_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-eye_in_hand_interfaces__rosidl_typesupport_fastrtps_cpp-004ba4b9da02fa60cff9.json",
+					"name" : "eye_in_hand_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "eye_in_hand_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-eye_in_hand_interfaces__rosidl_typesupport_introspection_c-c9d050198d6ffa1e692a.json",
+					"name" : "eye_in_hand_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "eye_in_hand_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-eye_in_hand_interfaces__rosidl_typesupport_introspection_cpp-02c247a57b0b8585efa0.json",
+					"name" : "eye_in_hand_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "eye_in_hand_interfaces__rs::@76456621a73eee07600c",
+					"jsonFile" : "target-eye_in_hand_interfaces__rs-297e7d084988f8b79ea0.json",
+					"name" : "eye_in_hand_interfaces__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "eye_in_hand_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-eye_in_hand_interfaces_s__rosidl_typesupport_c-facdf56f13e6f539d62e.json",
+					"name" : "eye_in_hand_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "eye_in_hand_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-eye_in_hand_interfaces_s__rosidl_typesupport_fastrtps_c-d34fa8663f38699cc434.json",
+					"name" : "eye_in_hand_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "eye_in_hand_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-eye_in_hand_interfaces_s__rosidl_typesupport_introspection_c-4fdbab0075e437bb786a.json",
+					"name" : "eye_in_hand_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "eye_in_hand_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-eye_in_hand_interfaces_uninstall-9daa20f9783d17149d52.json",
+					"name" : "eye_in_hand_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-c28f05ca31547fa17867.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/student/Git-projects/eye_in_hand_A5/build/eye_in_hand_interfaces",
+		"source" : "/home/student/Git-projects/eye_in_hand_A5/src/eye_in_hand_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/my_robotiq_controller__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robotiq_controller/srv/detail/dds_fastrtps/set_force__type_support.cpp.o"
+  "CMakeFiles/my_robotiq_controller__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robotiq_controller/srv/detail/dds_fastrtps/set_force__type_support.cpp.o.d"
+  "CMakeFiles/my_robotiq_controller__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robotiq_controller/srv/detail/dds_fastrtps/set_speed__type_support.cpp.o"
+  "CMakeFiles/my_robotiq_controller__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robotiq_controller/srv/detail/dds_fastrtps/set_speed__type_support.cpp.o.d"
+  "libmy_robotiq_controller__rosidl_typesupport_fastrtps_cpp.pdb"
+  "libmy_robotiq_controller__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/my_robotiq_controller/srv/detail/dds_fastrtps/set_force__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/my_robotiq_controller/srv/detail/dds_fastrtps/set_speed__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/my_robotiq_controller/srv/detail/set_force__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/my_robotiq_controller/srv/detail/set_speed__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/my_robotiq_controller__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

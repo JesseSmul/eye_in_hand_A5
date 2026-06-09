@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "my_robotiq_controller/srv/SetForce_Request",
+      "fields": [
+        {
+          "name": "force",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "my_robotiq_controller/srv/SetForce_Request",
+      "hash_string": "RIHS01_b45df66161595c1e6f10e819681e187e757fbcfdaca681bdcbe96aa13915b75b"
+    }
+  ]
+}

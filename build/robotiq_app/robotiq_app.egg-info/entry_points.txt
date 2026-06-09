@@ -1,0 +1,3 @@
+[console_scripts]
+control_gripper = robotiq_app.control_gripper:main
+gripper_gui = robotiq_app.gripper_gui:main

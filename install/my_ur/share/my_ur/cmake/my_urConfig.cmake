@@ -1,0 +1,1 @@
+/home/student/Git-projects/eye_in_hand_A5/build/my_ur/ament_cmake_core/my_urConfig.cmake

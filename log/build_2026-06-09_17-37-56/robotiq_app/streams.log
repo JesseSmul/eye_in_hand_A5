@@ -1,0 +1,47 @@
+[2.190s] Invoking command in '/home/student/Git-projects/eye_in_hand_A5/src/ros2_robotiq_gripper/robotiq_app': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student/Git-projects/eye_in_hand_A5/build/robotiq_app/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/Git-projects/eye_in_hand_A5/install/robotiq_app/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/robotiq_app build --build-base /home/student/Git-projects/eye_in_hand_A5/build/robotiq_app/build install --record /home/student/Git-projects/eye_in_hand_A5/build/robotiq_app/install.log --single-version-externally-managed install_data
+[2.872s] running egg_info
+[2.872s] creating ../../../build/robotiq_app/robotiq_app.egg-info
+[2.908s] writing ../../../build/robotiq_app/robotiq_app.egg-info/PKG-INFO
+[2.918s] writing dependency_links to ../../../build/robotiq_app/robotiq_app.egg-info/dependency_links.txt
+[2.918s] writing entry points to ../../../build/robotiq_app/robotiq_app.egg-info/entry_points.txt
+[2.918s] writing requirements to ../../../build/robotiq_app/robotiq_app.egg-info/requires.txt
+[2.918s] writing top-level names to ../../../build/robotiq_app/robotiq_app.egg-info/top_level.txt
+[2.919s] writing manifest file '../../../build/robotiq_app/robotiq_app.egg-info/SOURCES.txt'
+[2.993s] reading manifest file '../../../build/robotiq_app/robotiq_app.egg-info/SOURCES.txt'
+[2.993s] writing manifest file '../../../build/robotiq_app/robotiq_app.egg-info/SOURCES.txt'
+[2.994s] running build
+[2.994s] running build_py
+[2.997s] creating /home/student/Git-projects/eye_in_hand_A5/build/robotiq_app/build
+[2.997s] creating /home/student/Git-projects/eye_in_hand_A5/build/robotiq_app/build/lib
+[2.997s] creating /home/student/Git-projects/eye_in_hand_A5/build/robotiq_app/build/lib/robotiq_app
+[3.001s] copying robotiq_app/gripper_gui_old.py -> /home/student/Git-projects/eye_in_hand_A5/build/robotiq_app/build/lib/robotiq_app
+[3.005s] copying robotiq_app/__init__.py -> /home/student/Git-projects/eye_in_hand_A5/build/robotiq_app/build/lib/robotiq_app
+[3.005s] copying robotiq_app/control_gripper_new.py -> /home/student/Git-projects/eye_in_hand_A5/build/robotiq_app/build/lib/robotiq_app
+[3.005s] copying robotiq_app/control_gripper.py -> /home/student/Git-projects/eye_in_hand_A5/build/robotiq_app/build/lib/robotiq_app
+[3.005s] copying robotiq_app/gripper_gui.py -> /home/student/Git-projects/eye_in_hand_A5/build/robotiq_app/build/lib/robotiq_app
+[3.006s] running install
+[3.043s] running install_lib
+[3.152s] creating /home/student/Git-projects/eye_in_hand_A5/install/robotiq_app/lib/python3.12/site-packages/robotiq_app
+[3.152s] copying /home/student/Git-projects/eye_in_hand_A5/build/robotiq_app/build/lib/robotiq_app/gripper_gui_old.py -> /home/student/Git-projects/eye_in_hand_A5/install/robotiq_app/lib/python3.12/site-packages/robotiq_app
+[3.152s] copying /home/student/Git-projects/eye_in_hand_A5/build/robotiq_app/build/lib/robotiq_app/__init__.py -> /home/student/Git-projects/eye_in_hand_A5/install/robotiq_app/lib/python3.12/site-packages/robotiq_app
+[3.153s] copying /home/student/Git-projects/eye_in_hand_A5/build/robotiq_app/build/lib/robotiq_app/control_gripper_new.py -> /home/student/Git-projects/eye_in_hand_A5/install/robotiq_app/lib/python3.12/site-packages/robotiq_app
+[3.153s] copying /home/student/Git-projects/eye_in_hand_A5/build/robotiq_app/build/lib/robotiq_app/control_gripper.py -> /home/student/Git-projects/eye_in_hand_A5/install/robotiq_app/lib/python3.12/site-packages/robotiq_app
+[3.153s] copying /home/student/Git-projects/eye_in_hand_A5/build/robotiq_app/build/lib/robotiq_app/gripper_gui.py -> /home/student/Git-projects/eye_in_hand_A5/install/robotiq_app/lib/python3.12/site-packages/robotiq_app
+[3.155s] byte-compiling /home/student/Git-projects/eye_in_hand_A5/install/robotiq_app/lib/python3.12/site-packages/robotiq_app/gripper_gui_old.py to gripper_gui_old.cpython-312.pyc
+[3.160s] byte-compiling /home/student/Git-projects/eye_in_hand_A5/install/robotiq_app/lib/python3.12/site-packages/robotiq_app/__init__.py to __init__.cpython-312.pyc
+[3.161s] byte-compiling /home/student/Git-projects/eye_in_hand_A5/install/robotiq_app/lib/python3.12/site-packages/robotiq_app/control_gripper_new.py to control_gripper_new.cpython-312.pyc
+[3.164s] byte-compiling /home/student/Git-projects/eye_in_hand_A5/install/robotiq_app/lib/python3.12/site-packages/robotiq_app/control_gripper.py to control_gripper.cpython-312.pyc
+[3.165s] byte-compiling /home/student/Git-projects/eye_in_hand_A5/install/robotiq_app/lib/python3.12/site-packages/robotiq_app/gripper_gui.py to gripper_gui.cpython-312.pyc
+[3.171s] running install_data
+[3.171s] creating /home/student/Git-projects/eye_in_hand_A5/install/robotiq_app/share/ament_index
+[3.172s] creating /home/student/Git-projects/eye_in_hand_A5/install/robotiq_app/share/ament_index/resource_index
+[3.172s] creating /home/student/Git-projects/eye_in_hand_A5/install/robotiq_app/share/ament_index/resource_index/packages
+[3.173s] copying resource/robotiq_app -> /home/student/Git-projects/eye_in_hand_A5/install/robotiq_app/share/ament_index/resource_index/packages
+[3.173s] copying package.xml -> /home/student/Git-projects/eye_in_hand_A5/install/robotiq_app/share/robotiq_app
+[3.175s] running install_egg_info
+[3.225s] Copying ../../../build/robotiq_app/robotiq_app.egg-info to /home/student/Git-projects/eye_in_hand_A5/install/robotiq_app/lib/python3.12/site-packages/robotiq_app-0.0.0-py3.12.egg-info
+[3.227s] running install_scripts
+[3.720s] Installing control_gripper script to /home/student/Git-projects/eye_in_hand_A5/install/robotiq_app/lib/robotiq_app
+[3.720s] Installing gripper_gui script to /home/student/Git-projects/eye_in_hand_A5/install/robotiq_app/lib/robotiq_app
+[3.720s] writing list of installed files to '/home/student/Git-projects/eye_in_hand_A5/build/robotiq_app/install.log'
+[3.832s] Invoked command in '/home/student/Git-projects/eye_in_hand_A5/src/ros2_robotiq_gripper/robotiq_app' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student/Git-projects/eye_in_hand_A5/build/robotiq_app/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/Git-projects/eye_in_hand_A5/install/robotiq_app/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/robotiq_app build --build-base /home/student/Git-projects/eye_in_hand_A5/build/robotiq_app/build install --record /home/student/Git-projects/eye_in_hand_A5/build/robotiq_app/install.log --single-version-externally-managed install_data

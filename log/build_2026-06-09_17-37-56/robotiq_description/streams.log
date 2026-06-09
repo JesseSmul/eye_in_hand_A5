@@ -1,0 +1,96 @@
+[0.059s] Invoking command in '/home/student/Git-projects/eye_in_hand_A5/build/robotiq_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/Git-projects/install/robotiq_app:/home/student/ros2_industrial_ws/install/urdf_basics:/home/student/ros2_industrial_ws/install/transferframes:/home/student/ros2_industrial_ws/install/template_package_python:/home/student/ros2_industrial_ws/install/ros_industrial_utilities:/home/student/ros2_industrial_ws/install/ros_industrial_support:/home/student/ros2_industrial_ws/install/range_sensor:/home/student/ros2_industrial_ws/install/node_demo:/home/student/ros2_industrial_ws/install/manipulation:/home/student/ros2_industrial_ws/install/fanuc_robots:/home/student/my_ur_ws/install/my_ur_demo:/home/student/my_ur_ws/install/my_ur_bringup:/home/student/xarm_ws/install/uf_ros_lib:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/student/Git-projects/eye_in_hand_A5/src/ros2_robotiq_gripper/robotiq_description -DCMAKE_INSTALL_PREFIX=/home/student/Git-projects/eye_in_hand_A5/install/robotiq_description
+[0.336s] -- The C compiler identification is GNU 13.3.0
+[0.458s] -- The CXX compiler identification is GNU 13.3.0
+[0.514s] -- Detecting C compiler ABI info
+[0.770s] -- Detecting C compiler ABI info - done
+[0.810s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.810s] -- Detecting C compile features
+[0.813s] -- Detecting C compile features - done
+[0.857s] -- Detecting CXX compiler ABI info
+[1.269s] -- Detecting CXX compiler ABI info - done
+[1.307s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.307s] -- Detecting CXX compile features
+[1.312s] -- Detecting CXX compile features - done
+[1.347s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.216s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.964s] -- Configuring done (2.9s)
+[2.968s] -- Generating done (0.0s)
+[2.973s] -- Build files have been written to: /home/student/Git-projects/eye_in_hand_A5/build/robotiq_description
+[2.986s] Invoked command in '/home/student/Git-projects/eye_in_hand_A5/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/Git-projects/install/robotiq_app:/home/student/ros2_industrial_ws/install/urdf_basics:/home/student/ros2_industrial_ws/install/transferframes:/home/student/ros2_industrial_ws/install/template_package_python:/home/student/ros2_industrial_ws/install/ros_industrial_utilities:/home/student/ros2_industrial_ws/install/ros_industrial_support:/home/student/ros2_industrial_ws/install/range_sensor:/home/student/ros2_industrial_ws/install/node_demo:/home/student/ros2_industrial_ws/install/manipulation:/home/student/ros2_industrial_ws/install/fanuc_robots:/home/student/my_ur_ws/install/my_ur_demo:/home/student/my_ur_ws/install/my_ur_bringup:/home/student/xarm_ws/install/uf_ros_lib:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/student/Git-projects/eye_in_hand_A5/src/ros2_robotiq_gripper/robotiq_description -DCMAKE_INSTALL_PREFIX=/home/student/Git-projects/eye_in_hand_A5/install/robotiq_description
+[2.987s] Invoking command in '/home/student/Git-projects/eye_in_hand_A5/build/robotiq_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/Git-projects/install/robotiq_app:/home/student/ros2_industrial_ws/install/urdf_basics:/home/student/ros2_industrial_ws/install/transferframes:/home/student/ros2_industrial_ws/install/template_package_python:/home/student/ros2_industrial_ws/install/ros_industrial_utilities:/home/student/ros2_industrial_ws/install/ros_industrial_support:/home/student/ros2_industrial_ws/install/range_sensor:/home/student/ros2_industrial_ws/install/node_demo:/home/student/ros2_industrial_ws/install/manipulation:/home/student/ros2_industrial_ws/install/fanuc_robots:/home/student/my_ur_ws/install/my_ur_demo:/home/student/my_ur_ws/install/my_ur_bringup:/home/student/xarm_ws/install/uf_ros_lib:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/student/Git-projects/eye_in_hand_A5/build/robotiq_description -- -j4 -l4
+[3.193s] Invoked command in '/home/student/Git-projects/eye_in_hand_A5/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/Git-projects/install/robotiq_app:/home/student/ros2_industrial_ws/install/urdf_basics:/home/student/ros2_industrial_ws/install/transferframes:/home/student/ros2_industrial_ws/install/template_package_python:/home/student/ros2_industrial_ws/install/ros_industrial_utilities:/home/student/ros2_industrial_ws/install/ros_industrial_support:/home/student/ros2_industrial_ws/install/range_sensor:/home/student/ros2_industrial_ws/install/node_demo:/home/student/ros2_industrial_ws/install/manipulation:/home/student/ros2_industrial_ws/install/fanuc_robots:/home/student/my_ur_ws/install/my_ur_demo:/home/student/my_ur_ws/install/my_ur_bringup:/home/student/xarm_ws/install/uf_ros_lib:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/student/Git-projects/eye_in_hand_A5/build/robotiq_description -- -j4 -l4
+[3.194s] Invoking command in '/home/student/Git-projects/eye_in_hand_A5/build/robotiq_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/Git-projects/install/robotiq_app:/home/student/ros2_industrial_ws/install/urdf_basics:/home/student/ros2_industrial_ws/install/transferframes:/home/student/ros2_industrial_ws/install/template_package_python:/home/student/ros2_industrial_ws/install/ros_industrial_utilities:/home/student/ros2_industrial_ws/install/ros_industrial_support:/home/student/ros2_industrial_ws/install/range_sensor:/home/student/ros2_industrial_ws/install/node_demo:/home/student/ros2_industrial_ws/install/manipulation:/home/student/ros2_industrial_ws/install/fanuc_robots:/home/student/my_ur_ws/install/my_ur_demo:/home/student/my_ur_ws/install/my_ur_bringup:/home/student/xarm_ws/install/uf_ros_lib:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/student/Git-projects/eye_in_hand_A5/build/robotiq_description
+[3.219s] -- Install configuration: ""
+[3.220s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/config
+[3.220s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/config/robotiq_controllers.yaml
+[3.222s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/config/robotiq_update_rate.yaml
+[3.223s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/launch
+[3.223s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/launch/view_gripper.launch.py
+[3.224s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/launch/robotiq_fake_control.launch.py
+[3.225s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/launch/robotiq_control.launch.py
+[3.226s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/meshes
+[3.227s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/meshes/collision
+[3.228s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140
+[3.228s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_inner_finger.stl
+[3.229s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_outer_knuckle.stl
+[3.229s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_inner_knuckle.stl
+[3.230s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_base_link.stl
+[3.232s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_coupling.stl
+[3.233s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_outer_finger.stl
+[3.234s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85
+[3.235s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/right_finger.stl
+[3.235s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/right_finger_tip.stl
+[3.236s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/ur_to_robotiq_adapter.stl
+[3.237s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/robotiq_base.stl
+[3.238s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/left_finger_tip.stl
+[3.243s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/right_knuckle.stl
+[3.245s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/left_finger.stl
+[3.247s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/left_knuckle.stl
+[3.249s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/right_inner_knuckle.stl
+[3.251s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/left_inner_knuckle.stl
+[3.252s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/meshes/visual
+[3.253s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140
+[3.257s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_inner_finger.stl
+[3.257s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_outer_knuckle.stl
+[3.257s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_inner_knuckle.stl
+[3.258s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_base_link.stl
+[3.265s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_coupling.stl
+[3.267s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_outer_finger.stl
+[3.269s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85
+[3.270s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/left_finger.dae
+[3.271s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/left_knuckle.dae
+[3.273s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/right_finger_tip.dae
+[3.276s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/right_inner_knuckle.dae
+[3.278s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/left_inner_knuckle.dae
+[3.283s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/robotiq_base.dae
+[3.293s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/left_finger_tip.dae
+[3.293s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/right_knuckle.dae
+[3.293s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/right_finger.dae
+[3.293s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/ur_to_robotiq_adapter.dae
+[3.297s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/rviz
+[3.297s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/rviz/view_urdf.rviz
+[3.298s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/urdf
+[3.299s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/urdf/robotiq_2f_85_gripper.urdf.xacro
+[3.299s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/urdf/robotiq_2f_140.xacro
+[3.300s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/urdf/robotiq_2f_85_macro.urdf.xacro
+[3.301s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/urdf/2f_140.ros2_control.xacro
+[3.302s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/urdf/robotiq_2f_140_gripper.urdf.xacro
+[3.303s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/urdf/robotiq_2f_140_macro.urdf.xacro
+[3.303s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/urdf/2f_85.ros2_control.xacro
+[3.304s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/urdf/ur_to_robotiq_adapter.urdf.xacro
+[3.307s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/ament_index/resource_index/package_run_dependencies/robotiq_description
+[3.309s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/ament_index/resource_index/parent_prefix_path/robotiq_description
+[3.309s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/environment/ament_prefix_path.sh
+[3.309s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/environment/ament_prefix_path.dsv
+[3.310s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/environment/path.sh
+[3.310s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/environment/path.dsv
+[3.310s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/local_setup.bash
+[3.310s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/local_setup.sh
+[3.313s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/local_setup.zsh
+[3.313s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/local_setup.dsv
+[3.314s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/package.dsv
+[3.315s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/ament_index/resource_index/packages/robotiq_description
+[3.318s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/cmake/robotiq_descriptionConfig.cmake
+[3.322s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/cmake/robotiq_descriptionConfig-version.cmake
+[3.322s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/robotiq_description/share/robotiq_description/package.xml
+[3.322s] Invoked command in '/home/student/Git-projects/eye_in_hand_A5/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/Git-projects/install/robotiq_app:/home/student/ros2_industrial_ws/install/urdf_basics:/home/student/ros2_industrial_ws/install/transferframes:/home/student/ros2_industrial_ws/install/template_package_python:/home/student/ros2_industrial_ws/install/ros_industrial_utilities:/home/student/ros2_industrial_ws/install/ros_industrial_support:/home/student/ros2_industrial_ws/install/range_sensor:/home/student/ros2_industrial_ws/install/node_demo:/home/student/ros2_industrial_ws/install/manipulation:/home/student/ros2_industrial_ws/install/fanuc_robots:/home/student/my_ur_ws/install/my_ur_demo:/home/student/my_ur_ws/install/my_ur_bringup:/home/student/xarm_ws/install/uf_ros_lib:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/student/Git-projects/eye_in_hand_A5/build/robotiq_description

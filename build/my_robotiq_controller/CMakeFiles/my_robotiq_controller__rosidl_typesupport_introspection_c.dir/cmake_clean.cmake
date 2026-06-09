@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/my_robotiq_controller__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robotiq_controller/srv/detail/set_force__type_support.c.o"
+  "CMakeFiles/my_robotiq_controller__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robotiq_controller/srv/detail/set_force__type_support.c.o.d"
+  "CMakeFiles/my_robotiq_controller__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robotiq_controller/srv/detail/set_speed__type_support.c.o"
+  "CMakeFiles/my_robotiq_controller__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robotiq_controller/srv/detail/set_speed__type_support.c.o.d"
+  "libmy_robotiq_controller__rosidl_typesupport_introspection_c.pdb"
+  "libmy_robotiq_controller__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/my_robotiq_controller/srv/detail/set_force__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/my_robotiq_controller/srv/detail/set_force__type_support.c"
+  "rosidl_typesupport_introspection_c/my_robotiq_controller/srv/detail/set_speed__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/my_robotiq_controller/srv/detail/set_speed__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/my_robotiq_controller__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
