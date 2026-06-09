@@ -1,1 +1,1 @@
-cv_bridge:rclcpp:sensor_msgs:std_msgs:std_srvs
+cv_bridge:eye_in_hand_interfaces:rclcpp:sensor_msgs:std_msgs:std_srvs

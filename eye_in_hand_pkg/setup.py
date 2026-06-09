@@ -32,6 +32,7 @@ setup(
         'hmi_product = eye_in_hand_pkg.hmi_product:main',
         'robot_main = eye_in_hand_pkg.robot_main:main',
         'robot_product = eye_in_hand_pkg.robot_product:main',
+        'test = eye_in_hand_pkg.hmi.test:main',
         ],
     },
 )

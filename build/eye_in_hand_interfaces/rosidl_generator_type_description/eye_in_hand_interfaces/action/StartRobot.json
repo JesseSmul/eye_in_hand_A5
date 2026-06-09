@@ -1,0 +1,532 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "eye_in_hand_interfaces/action/StartRobot",
+      "fields": [
+        {
+          "name": "goal",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "eye_in_hand_interfaces/action/StartRobot_Goal"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "result",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "eye_in_hand_interfaces/action/StartRobot_Result"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "feedback",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "eye_in_hand_interfaces/action/StartRobot_Feedback"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "send_goal_service",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "eye_in_hand_interfaces/action/StartRobot_SendGoal"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "get_result_service",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "eye_in_hand_interfaces/action/StartRobot_GetResult"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "feedback_message",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "eye_in_hand_interfaces/action/StartRobot_FeedbackMessage"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "builtin_interfaces/msg/Time",
+        "fields": [
+          {
+            "name": "sec",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "nanosec",
+            "type": {
+              "type_id": 7,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "eye_in_hand_interfaces/action/StartRobot_Feedback",
+        "fields": [
+          {
+            "name": "feedback",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "eye_in_hand_interfaces/action/StartRobot_FeedbackMessage",
+        "fields": [
+          {
+            "name": "goal_id",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "unique_identifier_msgs/msg/UUID"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "feedback",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "eye_in_hand_interfaces/action/StartRobot_Feedback"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "eye_in_hand_interfaces/action/StartRobot_GetResult",
+        "fields": [
+          {
+            "name": "request_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "eye_in_hand_interfaces/action/StartRobot_GetResult_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "eye_in_hand_interfaces/action/StartRobot_GetResult_Response"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "event_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "eye_in_hand_interfaces/action/StartRobot_GetResult_Event"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "eye_in_hand_interfaces/action/StartRobot_GetResult_Event",
+        "fields": [
+          {
+            "name": "info",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "service_msgs/msg/ServiceEventInfo"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "request",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "eye_in_hand_interfaces/action/StartRobot_GetResult_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "eye_in_hand_interfaces/action/StartRobot_GetResult_Response"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "eye_in_hand_interfaces/action/StartRobot_GetResult_Request",
+        "fields": [
+          {
+            "name": "goal_id",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "unique_identifier_msgs/msg/UUID"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "eye_in_hand_interfaces/action/StartRobot_GetResult_Response",
+        "fields": [
+          {
+            "name": "status",
+            "type": {
+              "type_id": 2,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "result",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "eye_in_hand_interfaces/action/StartRobot_Result"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "eye_in_hand_interfaces/action/StartRobot_Goal",
+        "fields": [
+          {
+            "name": "training_mode",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "eye_in_hand_interfaces/action/StartRobot_Result",
+        "fields": [
+          {
+            "name": "success",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "message",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "eye_in_hand_interfaces/action/StartRobot_SendGoal",
+        "fields": [
+          {
+            "name": "request_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "eye_in_hand_interfaces/action/StartRobot_SendGoal_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "eye_in_hand_interfaces/action/StartRobot_SendGoal_Response"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "event_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "eye_in_hand_interfaces/action/StartRobot_SendGoal_Event"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "eye_in_hand_interfaces/action/StartRobot_SendGoal_Event",
+        "fields": [
+          {
+            "name": "info",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "service_msgs/msg/ServiceEventInfo"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "request",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "eye_in_hand_interfaces/action/StartRobot_SendGoal_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "eye_in_hand_interfaces/action/StartRobot_SendGoal_Response"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "eye_in_hand_interfaces/action/StartRobot_SendGoal_Request",
+        "fields": [
+          {
+            "name": "goal_id",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "unique_identifier_msgs/msg/UUID"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "goal",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "eye_in_hand_interfaces/action/StartRobot_Goal"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "eye_in_hand_interfaces/action/StartRobot_SendGoal_Response",
+        "fields": [
+          {
+            "name": "accepted",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "stamp",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "builtin_interfaces/msg/Time"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "service_msgs/msg/ServiceEventInfo",
+        "fields": [
+          {
+            "name": "event_type",
+            "type": {
+              "type_id": 3,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "stamp",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "builtin_interfaces/msg/Time"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "client_gid",
+            "type": {
+              "type_id": 51,
+              "capacity": 16,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "sequence_number",
+            "type": {
+              "type_id": 8,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "unique_identifier_msgs/msg/UUID",
+        "fields": [
+          {
+            "name": "uuid",
+            "type": {
+              "type_id": 51,
+              "capacity": 16,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "eye_in_hand_interfaces/action/StartRobot",
+      "hash_string": "RIHS01_8096b10b0a5348fc6d504bdc7c1e630d5bb309d4f861a1951f88e31e7399713d"
+    },
+    {
+      "type_name": "builtin_interfaces/msg/Time",
+      "hash_string": "RIHS01_b106235e25a4c5ed35098aa0a61a3ee9c9b18d197f398b0e4206cea9acf9c197"
+    },
+    {
+      "type_name": "eye_in_hand_interfaces/action/StartRobot_Feedback",
+      "hash_string": "RIHS01_c34d852060f8b4ed1523c199195361c73f6059a9da523c046621c93a374c3e58"
+    },
+    {
+      "type_name": "eye_in_hand_interfaces/action/StartRobot_FeedbackMessage",
+      "hash_string": "RIHS01_02faed9ebaca8aa31253db3bfec34a4a74025a15289ed3f2b95bb30fe8507db5"
+    },
+    {
+      "type_name": "eye_in_hand_interfaces/action/StartRobot_GetResult",
+      "hash_string": "RIHS01_4b5e8c674d1651bcc62d3eb6b55e5b58e84541053c44324a43a65a4af77c11c4"
+    },
+    {
+      "type_name": "eye_in_hand_interfaces/action/StartRobot_GetResult_Event",
+      "hash_string": "RIHS01_874eacb17e733b16182d974652ed28d4a15854b595745f2609bf1d80cea7367b"
+    },
+    {
+      "type_name": "eye_in_hand_interfaces/action/StartRobot_GetResult_Request",
+      "hash_string": "RIHS01_8cc5017032cd7240e9f227a606f6cec6afc8883ae2cea43dec0b6c05f9e1c9f9"
+    },
+    {
+      "type_name": "eye_in_hand_interfaces/action/StartRobot_GetResult_Response",
+      "hash_string": "RIHS01_1cf3d8a34a5c8d1bb65b2cf941dbac82753b4b8c5c5148077f41ebcaece75cae"
+    },
+    {
+      "type_name": "eye_in_hand_interfaces/action/StartRobot_Goal",
+      "hash_string": "RIHS01_3cf1190171fbd8de6b456bbc9b38c3bc1486a55c6086d11e05aa6676a3b8794d"
+    },
+    {
+      "type_name": "eye_in_hand_interfaces/action/StartRobot_Result",
+      "hash_string": "RIHS01_7bf0445b773d6d08886285bdaba7965ce49bfc229d25c08d4b86d7a9d80ffb57"
+    },
+    {
+      "type_name": "eye_in_hand_interfaces/action/StartRobot_SendGoal",
+      "hash_string": "RIHS01_a55a915584826acb793813c3ade62ba129a3f0b6cccec5d4c12f6ff22eb91f4a"
+    },
+    {
+      "type_name": "eye_in_hand_interfaces/action/StartRobot_SendGoal_Event",
+      "hash_string": "RIHS01_10a77f9f42b9c3fd575c7084f296748917f5e061b4b13bb8bcf0065dd3f7b716"
+    },
+    {
+      "type_name": "eye_in_hand_interfaces/action/StartRobot_SendGoal_Request",
+      "hash_string": "RIHS01_407917b6c37cd402701e37afdf4e8d11a7a6a2db0326f58ee60845f6a9601635"
+    },
+    {
+      "type_name": "eye_in_hand_interfaces/action/StartRobot_SendGoal_Response",
+      "hash_string": "RIHS01_735f2eb47daa39ebdf1f1c3fc68051fb1d089b044791f35b0e16a33f4c1159e6"
+    },
+    {
+      "type_name": "service_msgs/msg/ServiceEventInfo",
+      "hash_string": "RIHS01_41bcbbe07a75c9b52bc96bfd5c24d7f0fc0a08c0cb7921b3373c5732345a6f45"
+    },
+    {
+      "type_name": "unique_identifier_msgs/msg/UUID",
+      "hash_string": "RIHS01_1b8e8aca958cbea28fe6ef60bf6c19b683c97a9ef60bb34752067d0f2f7ab437"
+    }
+  ]
+}

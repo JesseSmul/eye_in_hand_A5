@@ -30,3 +30,6 @@ class HMICamera(Node):
 
     def get_latest_frame(self):
         return self.latest_frame
+    
+#----------------------------------------------------------------------
+# Subscriber van de beeld_camera topic

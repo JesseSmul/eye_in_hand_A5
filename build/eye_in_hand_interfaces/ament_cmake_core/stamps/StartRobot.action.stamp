@@ -1,0 +1,6 @@
+bool training_mode
+---
+bool success
+string message
+---
+string feedback

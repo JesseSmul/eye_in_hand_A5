@@ -16,7 +16,7 @@
   <widget class="QLabel" name="statusLamp">
    <property name="geometry">
     <rect>
-     <x>330</x>
+     <x>300</x>
      <y>40</y>
      <width>81</width>
      <height>81</height>
@@ -75,7 +75,7 @@
   <widget class="QLabel" name="statusText">
    <property name="geometry">
     <rect>
-     <x>290</x>
+     <x>260</x>
      <y>130</y>
      <width>161</width>
      <height>41</height>
@@ -261,7 +261,7 @@
     <rect>
      <x>310</x>
      <y>10</y>
-     <width>121</width>
+     <width>61</width>
      <height>19</height>
     </rect>
    </property>
@@ -294,7 +294,7 @@
     <enum>Qt::AutoText</enum>
    </property>
    <property name="pixmap">
-    <pixmap>avans.png</pixmap>
+    <pixmap>../../../../../../.designer/backup/avans.png</pixmap>
    </property>
    <property name="scaledContents">
     <bool>true</bool>
@@ -383,14 +383,100 @@
   <widget class="QLabel" name="label_4">
    <property name="geometry">
     <rect>
-     <x>180</x>
+     <x>210</x>
      <y>10</y>
-     <width>121</width>
+     <width>61</width>
      <height>19</height>
     </rect>
    </property>
    <property name="text">
     <string>Training:</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpinBox">
+   <property name="geometry">
+    <rect>
+     <x>890</x>
+     <y>500</y>
+     <width>65</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="decimals">
+    <number>0</number>
+   </property>
+   <property name="maximum">
+    <double>100.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpinBox_2">
+   <property name="geometry">
+    <rect>
+     <x>890</x>
+     <y>530</y>
+     <width>65</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="decimals">
+    <number>0</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>810</x>
+     <y>500</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Speed(%):</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>530</y>
+     <width>181</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Confidence threshold(%):</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="msgLabel">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>180</y>
+     <width>221</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Box</enum>
+   </property>
+   <property name="text">
+    <string/>
    </property>
    <property name="alignment">
     <set>Qt::AlignCenter</set>
