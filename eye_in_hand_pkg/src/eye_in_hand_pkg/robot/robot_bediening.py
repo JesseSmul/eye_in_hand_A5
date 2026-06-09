@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
 
+from urllib import response
+
 import rclpy
 from rclpy.node import Node
 
 from std_srvs.srv import Trigger, SetBool
 from std_msgs.msg import String
+from my_moveit_python import srdfGroupStates
+from my_moveit_python import MovegroupHelper
 
 
 class RobotBediening(Node):
@@ -12,6 +16,12 @@ class RobotBediening(Node):
         super().__init__('robot_bediening')
 
         self.robot_running = False
+
+        self.status_publisher = self.create_publisher(
+            String,
+            '/robot_status',
+            10
+        )
         self.training_mode = False
         self.speed_percentage = 100
 
@@ -44,9 +54,21 @@ class RobotBediening(Node):
             '/robot_status',
             10
         )
+        
+        self.command_publisher = self.create_publisher(
+            String,
+            '/robot_command',
+            10
+        )
 
         self.get_logger().info('robot_bediening node gestart')
         self.publish_status('Stand-by')
+
+        self.movegroup = MovegroupHelper(
+            node=self,
+            base_frame='base_link',
+            end_effector_frame='tool0'
+        )
 
     def publish_status(self, status_text):
         msg = String()
@@ -56,32 +78,45 @@ class RobotBediening(Node):
 
     def start_robot_callback(self, request, response):
         self.get_logger().info('Start robot service ontvangen')
-
-        self.robot_running = True
-
+         
         # Hier komt later jouw echte robot-startlogica.
         # Bijvoorbeeld:
         # - robotprogramma starten
         # - trajectory controller activeren
         # - robot naar home positie sturen
         # - sorteercyclus starten
+        
+        if self.robot_running:
+            response.success = False
+            response.message = 'Robot draait al'
+            return response
+
+        self.robot_running = True
+
+        # Robot naar home positie sturen
+        self.move_to_state("home")
+
+        # Sorteerproces starten
+        start_msg = String()
+        start_msg.data = "start"
+        self.command_publisher.publish(start_msg)
 
         if self.training_mode:
             self.speed_percentage = 20
             self.publish_status('Training')
-            response.message = 'Robot gestart in trainingsmodus op 20% snelheid'
+            response.message = 'Robot gestart in trainingsmodus'
         else:
             self.speed_percentage = 100
             self.publish_status('Running')
-            response.message = 'Robot gestart op normale snelheid'
+            response.message = 'Robot gestart'
 
         response.success = True
         return response
-
+    
+   
+    
     def stop_robot_callback(self, request, response):
         self.get_logger().info('Stop robot service ontvangen')
-
-        self.robot_running = False
 
         # Hier komt later jouw echte robot-stoplogica.
         # Bijvoorbeeld:
@@ -89,18 +124,27 @@ class RobotBediening(Node):
         # - programma pauzeren
         # - robot veilig naar stand-by zetten
 
+        self.robot_running = False
+
+        stop_msg = String()
+        
+        stop_msg.data = "stop"
+        self.command_publisher.publish(stop_msg)
+
+        self.cancel_current_motion()
+
         self.publish_status('Stand-by')
 
         response.success = True
         response.message = 'Robot gestopt'
+
         return response
+
+    def cancel_current_motion(self):
+        self.get_logger().info("Huidige beweging annuleren")
 
     def reset_robot_callback(self, request, response):
         self.get_logger().info('Reset robot service ontvangen')
-
-        self.robot_running = False
-        self.training_mode = False
-        self.speed_percentage = 100
 
         # Hier komt later jouw echte robot-resetlogica.
         # Bijvoorbeeld:
@@ -108,6 +152,13 @@ class RobotBediening(Node):
         # - robot naar beginpositie
         # - interne tellers resetten
         # - controllers opnieuw klaarzetten
+
+        self.robot_running = False
+        self.cancel_current_motion()
+        self.training_mode = False
+        self.speed_percentage = 100
+
+        self.move_to_state("home")
 
         self.publish_status('Reset')
 
@@ -152,7 +203,22 @@ class RobotBediening(Node):
 
         return response
 
+    def move_to_state(self, state_name):
+        try:
+            self.get_logger().info(f'Beweeg naar state: {state_name}')
 
+            goal = srdfGroupStates()
+            goal.group_name = "ur_manipulator"
+            goal.state_name = state_name
+
+            self.movegroup.move_to_state(goal)
+
+            return True
+
+        except Exception as e:
+            self.get_logger().error(str(e))
+            return False
+    
 def main():
     rclpy.init()
 
