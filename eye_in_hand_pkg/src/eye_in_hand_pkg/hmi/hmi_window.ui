@@ -16,7 +16,7 @@
   <widget class="QLabel" name="statusLamp">
    <property name="geometry">
     <rect>
-     <x>300</x>
+     <x>330</x>
      <y>40</y>
      <width>81</width>
      <height>81</height>
@@ -75,7 +75,7 @@
   <widget class="QLabel" name="statusText">
    <property name="geometry">
     <rect>
-     <x>260</x>
+     <x>290</x>
      <y>130</y>
      <width>161</width>
      <height>41</height>
@@ -261,7 +261,7 @@
     <rect>
      <x>310</x>
      <y>10</y>
-     <width>61</width>
+     <width>121</width>
      <height>19</height>
     </rect>
    </property>
@@ -294,7 +294,7 @@
     <enum>Qt::AutoText</enum>
    </property>
    <property name="pixmap">
-    <pixmap>../../../../../../.designer/backup/avans.png</pixmap>
+    <pixmap>avans.png</pixmap>
    </property>
    <property name="scaledContents">
     <bool>true</bool>
@@ -383,9 +383,9 @@
   <widget class="QLabel" name="label_4">
    <property name="geometry">
     <rect>
-     <x>210</x>
+     <x>180</x>
      <y>10</y>
-     <width>61</width>
+     <width>121</width>
      <height>19</height>
     </rect>
    </property>
@@ -452,31 +452,6 @@
    </property>
    <property name="text">
     <string>Confidence threshold(%):</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="QLabel" name="msgLabel">
-   <property name="geometry">
-    <rect>
-     <x>230</x>
-     <y>180</y>
-     <width>221</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="minimumSize">
-    <size>
-     <width>0</width>
-     <height>0</height>
-    </size>
-   </property>
-   <property name="frameShape">
-    <enum>QFrame::Box</enum>
-   </property>
-   <property name="text">
-    <string/>
    </property>
    <property name="alignment">
     <set>Qt::AlignCenter</set>

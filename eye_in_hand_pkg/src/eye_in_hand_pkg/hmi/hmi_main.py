@@ -45,7 +45,7 @@ class HMIWindow(QWidget):
 
         uic.loadUi(ui_file, self)
 
-        self.startButton.clicked.connect(self.start_robot_clicked)
+        self.startButton.clicked.connect(self.bediening_node.start_robot)
         self.stopButton.clicked.connect(self.bediening_node.stop_robot)
         self.resetButton.clicked.connect(self.bediening_node.reset_robot)
         self.respButton.clicked.connect(self.reset_product_counts)
@@ -58,7 +58,6 @@ class HMIWindow(QWidget):
         self.set_lamp_color("gray")
         self.set_training_lamp_color("gray")
         self.set_status_text_design("Starting up")
-        self.update_message_display()
 
         self.update_product_display()
         self.update_calibratie_display()
@@ -76,24 +75,8 @@ class HMIWindow(QWidget):
         self.update_product_display()
         self.update_camera_display()
         self.update_calibratie_display()
-        self.update_message_display()
 
-# ----------------------------------------------------------------------
-# Start robot action
-
-    def start_robot_clicked(self):
-        training_enabled = self.trainingButton.isChecked()
-        self.bediening_node.start_robot(training_enabled)
-        self.update_message_display()
-
-# ----------------------------------------------------------------------
-# Feedback/resultaat van action en services tonen in msgLabel
-
-    def update_message_display(self, background="#FFFFFF", text_color="black"):
-        if hasattr(self, "msgLabel"):
-            self.msgLabel.setText(self.bediening_node.get_latest_message())
-            self.set_msg_label_design(self.msgLabel.text(), background, text_color)
-# ----------------------------------------------------------------------
+#----------------------------------------------------------------------
 # Training mode toggle past de training mode aan in de HMI
 
     def training_mode_changed(self, checked):
@@ -108,7 +91,7 @@ class HMIWindow(QWidget):
             self.set_training_lamp_color("gray")
             self.set_status_text_design("Training uit")
 
-# ----------------------------------------------------------------------
+#----------------------------------------------------------------------
 # Status display update past de kleur van de status-lamp en de tekst aan op basis van de laatste status die is ontvangen van de status_node.
 
     def update_status_display(self):
@@ -142,7 +125,7 @@ class HMIWindow(QWidget):
             self.set_lamp_color("gray")
             self.set_status_text_design(status)
 
-# ----------------------------------------------------------------------
+#----------------------------------------------------------------------
 # Camera display update zet het laatste camerabeeld om naar een QPixmap en toont het in de cameraLabel.
 
     def update_camera_display(self):
@@ -179,7 +162,7 @@ class HMIWindow(QWidget):
         except Exception as e:
             self.cameraLabel.setText(f"Camera fout: {e}")
 
-# ----------------------------------------------------------------------
+#----------------------------------------------------------------------
 # Calibratie display update haalt de laatste robot- en camera-positie op van de calibratie_node en toont deze in de respectievelijke labels.
 
     def update_calibratie_display(self):
@@ -193,7 +176,7 @@ class HMIWindow(QWidget):
             self.calibratie_node.get_camera_xyz_text()
         )
 
-# ----------------------------------------------------------------------
+#----------------------------------------------------------------------
 # Zet de style van de status- en training-lampen
 
     def set_lamp_color(self, color):
@@ -214,7 +197,7 @@ class HMIWindow(QWidget):
             }}
         """)
 
-# ----------------------------------------------------------------------
+#----------------------------------------------------------------------
 # Algemene functie om de stijl van labels aan te passen, gebruikt voor status- en productlabels
 
     def set_label_design(self, label, text, background="#FFFFFF", text_color="black"):
@@ -239,16 +222,7 @@ class HMIWindow(QWidget):
             text_color
         )
 
-    def set_msg_label_design(self, text, background="#FFFFFF", text_color="black"):
-        self.set_label_design(
-            self.msgLabel,
-            text,
-            background,
-            text_color
-        )
-
-
-# ----------------------------------------------------------------------
+#----------------------------------------------------------------------
 # Update product display haalt het aantal gesorteerde producten per bak op van de product_node en toont deze in de valueBox-labels.
 
     def update_product_display(self):
