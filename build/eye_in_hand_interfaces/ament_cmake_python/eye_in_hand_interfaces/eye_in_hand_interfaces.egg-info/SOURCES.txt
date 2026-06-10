@@ -4,5 +4,3 @@ eye_in_hand_interfaces.egg-info/PKG-INFO
 eye_in_hand_interfaces.egg-info/SOURCES.txt
 eye_in_hand_interfaces.egg-info/dependency_links.txt
 eye_in_hand_interfaces.egg-info/top_level.txt
-eye_in_hand_interfaces/action/__init__.py
-eye_in_hand_interfaces/action/_start_robot.py

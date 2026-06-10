@@ -1,4 +1,4 @@
-# Install script for directory: /home/student/Git-projects/eye_in_hand_A5/eye_in_hand_pkg
+# Install script for directory: /home/student/Git-projects/eye_in_hand_A5/src/eye_in_hand_pkg
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,19 +43,19 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/eye_in_hand_pkg" TYPE PROGRAM RENAME "hmi_main" FILES "/home/student/Git-projects/eye_in_hand_A5/eye_in_hand_pkg/src/eye_in_hand_pkg/hmi/hmi_main.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/eye_in_hand_pkg" TYPE PROGRAM RENAME "hmi_main" FILES "/home/student/Git-projects/eye_in_hand_A5/src/eye_in_hand_pkg/src/eye_in_hand_pkg/hmi/hmi_main.py")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/eye_in_hand_pkg" TYPE DIRECTORY FILES "/home/student/Git-projects/eye_in_hand_A5/eye_in_hand_pkg/src/eye_in_hand_pkg/" FILES_MATCHING REGEX "/[^/]*\\.py$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/eye_in_hand_pkg" TYPE DIRECTORY FILES "/home/student/Git-projects/eye_in_hand_A5/src/eye_in_hand_pkg/src/eye_in_hand_pkg/" FILES_MATCHING REGEX "/[^/]*\\.py$")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/eye_in_hand_pkg" TYPE FILE FILES "/home/student/Git-projects/eye_in_hand_A5/eye_in_hand_pkg/src/eye_in_hand_pkg/hmi/hmi_window.ui")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/eye_in_hand_pkg" TYPE FILE FILES "/home/student/Git-projects/eye_in_hand_A5/src/eye_in_hand_pkg/src/eye_in_hand_pkg/hmi/hmi_window.ui")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/eye_in_hand_pkg" TYPE FILE FILES "/home/student/Git-projects/eye_in_hand_A5/eye_in_hand_pkg/src/eye_in_hand_pkg/hmi/avans.png")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/eye_in_hand_pkg" TYPE FILE FILES "/home/student/Git-projects/eye_in_hand_A5/src/eye_in_hand_pkg/src/eye_in_hand_pkg/hmi/avans.png")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -114,7 +114,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/eye_in_hand_pkg" TYPE FILE FILES "/home/student/Git-projects/eye_in_hand_A5/eye_in_hand_pkg/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/eye_in_hand_pkg" TYPE FILE FILES "/home/student/Git-projects/eye_in_hand_A5/src/eye_in_hand_pkg/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

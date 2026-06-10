@@ -1,0 +1,244 @@
+[0.010s] Invoking command in '/home/student/Git-projects/eye_in_hand_A5/build/eye_in_hand_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/my_ur_ws/install/robotiq_app:/home/student/my_ur_ws/install/my_ur_demo:/home/student/my_ur_ws/install/my_ur_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/student/Git-projects/eye_in_hand_A5/src/eye_in_hand_interfaces -DCMAKE_INSTALL_PREFIX=/home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces
+[0.070s] -- The C compiler identification is GNU 13.3.0
+[0.123s] -- The CXX compiler identification is GNU 13.3.0
+[0.140s] -- Detecting C compiler ABI info
+[0.218s] -- Detecting C compiler ABI info - done
+[0.225s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.226s] -- Detecting C compile features
+[0.226s] -- Detecting C compile features - done
+[0.236s] -- Detecting CXX compiler ABI info
+[0.324s] -- Detecting CXX compiler ABI info - done
+[0.332s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.333s] -- Detecting CXX compile features
+[0.333s] -- Detecting CXX compile features - done
+[0.339s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.484s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.605s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.614s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.673s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.728s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.732s] -- Found action_msgs: 2.0.3 (/opt/ros/jazzy/share/action_msgs/cmake)
+[1.269s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.626s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.082s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.086s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.191s] -- Found PythonExtra: /usr/bin/python3  
+[2.533s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.584s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.589s] -- Configuring done (2.6s)
+[2.617s] -- Generating done (0.0s)
+[2.627s] -- Build files have been written to: /home/student/Git-projects/eye_in_hand_A5/build/eye_in_hand_interfaces
+[2.634s] Invoked command in '/home/student/Git-projects/eye_in_hand_A5/build/eye_in_hand_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/my_ur_ws/install/robotiq_app:/home/student/my_ur_ws/install/my_ur_demo:/home/student/my_ur_ws/install/my_ur_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/student/Git-projects/eye_in_hand_A5/src/eye_in_hand_interfaces -DCMAKE_INSTALL_PREFIX=/home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces
+[2.635s] Invoking command in '/home/student/Git-projects/eye_in_hand_A5/build/eye_in_hand_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/my_ur_ws/install/robotiq_app:/home/student/my_ur_ws/install/my_ur_demo:/home/student/my_ur_ws/install/my_ur_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/student/Git-projects/eye_in_hand_A5/build/eye_in_hand_interfaces -- -j8 -l8
+[2.674s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[2.674s] [  5%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[2.681s] [  5%] Built target ament_cmake_python_copy_eye_in_hand_interfaces
+[2.861s] [  5%] Built target eye_in_hand_interfaces__rosidl_generator_type_description
+[2.871s] [  8%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.880s] [ 11%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.889s] running egg_info
+[2.890s] creating eye_in_hand_interfaces.egg-info
+[2.905s] [ 11%] Built target eye_in_hand_interfaces__rs
+[2.910s] writing eye_in_hand_interfaces.egg-info/PKG-INFO
+[2.910s] writing dependency_links to eye_in_hand_interfaces.egg-info/dependency_links.txt
+[2.910s] writing top-level names to eye_in_hand_interfaces.egg-info/top_level.txt
+[2.910s] writing manifest file 'eye_in_hand_interfaces.egg-info/SOURCES.txt'
+[2.962s] reading manifest file 'eye_in_hand_interfaces.egg-info/SOURCES.txt'
+[2.962s] writing manifest file 'eye_in_hand_interfaces.egg-info/SOURCES.txt'
+[2.985s] [ 11%] Built target ament_cmake_python_build_eye_in_hand_interfaces_egg
+[3.225s] [ 11%] Built target eye_in_hand_interfaces__cpp
+[3.266s] [ 20%] [32mBuilding C object CMakeFiles/eye_in_hand_interfaces__rosidl_generator_c.dir/rosidl_generator_c/eye_in_hand_interfaces/action/detail/start_robot__functions.c.o[0m
+[3.266s] [ 20%] [32mBuilding C object CMakeFiles/eye_in_hand_interfaces__rosidl_generator_c.dir/rosidl_generator_c/eye_in_hand_interfaces/action/detail/start_robot__type_support.c.o[0m
+[3.266s] [ 20%] [32mBuilding C object CMakeFiles/eye_in_hand_interfaces__rosidl_generator_c.dir/rosidl_generator_c/eye_in_hand_interfaces/action/detail/start_robot__description.c.o[0m
+[3.389s] [ 22%] [32m[1mLinking C shared library libeye_in_hand_interfaces__rosidl_generator_c.so[0m
+[3.419s] [ 22%] Built target eye_in_hand_interfaces__rosidl_generator_c
+[3.428s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.428s] [ 28%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.430s] [ 34%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.430s] [ 34%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.431s] [ 37%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.431s] [ 40%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.671s] [ 42%] [32mBuilding CXX object CMakeFiles/eye_in_hand_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/eye_in_hand_interfaces/action/start_robot__type_support.cpp.o[0m
+[3.684s] [ 45%] [32mBuilding CXX object CMakeFiles/eye_in_hand_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/eye_in_hand_interfaces/action/start_robot__type_support.cpp.o[0m
+[3.717s] [ 48%] [32m[1mLinking CXX shared library libeye_in_hand_interfaces__rosidl_typesupport_c.so[0m
+[3.750s] [ 48%] Built target eye_in_hand_interfaces__rosidl_typesupport_c
+[3.874s] [ 51%] [32mBuilding C object CMakeFiles/eye_in_hand_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/eye_in_hand_interfaces/action/detail/start_robot__type_support.c.o[0m
+[3.909s] [ 54%] [32mBuilding CXX object CMakeFiles/eye_in_hand_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/eye_in_hand_interfaces/action/detail/start_robot__type_support.cpp.o[0m
+[3.942s] [ 57%] [32m[1mLinking C shared library libeye_in_hand_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.979s] [ 57%] Built target eye_in_hand_interfaces__rosidl_typesupport_introspection_c
+[4.009s] [ 60%] [32mBuilding CXX object CMakeFiles/eye_in_hand_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/eye_in_hand_interfaces/action/detail/start_robot__type_support_c.cpp.o[0m
+[4.016s] [ 62%] [32mBuilding CXX object CMakeFiles/eye_in_hand_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/eye_in_hand_interfaces/action/detail/dds_fastrtps/start_robot__type_support.cpp.o[0m
+[4.200s] [ 65%] [32m[1mLinking CXX shared library libeye_in_hand_interfaces__rosidl_typesupport_cpp.so[0m
+[4.264s] [ 65%] Built target eye_in_hand_interfaces__rosidl_typesupport_cpp
+[4.485s] [ 68%] [32m[1mLinking CXX shared library libeye_in_hand_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[4.513s] [ 71%] [32m[1mLinking CXX shared library libeye_in_hand_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.548s] [ 71%] Built target eye_in_hand_interfaces__rosidl_typesupport_fastrtps_c
+[4.576s] [ 71%] Built target eye_in_hand_interfaces__rosidl_typesupport_introspection_cpp
+[4.780s] [ 74%] [32m[1mLinking CXX shared library libeye_in_hand_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.847s] [ 74%] Built target eye_in_hand_interfaces__rosidl_typesupport_fastrtps_cpp
+[4.863s] [ 74%] Built target eye_in_hand_interfaces
+[4.879s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.397s] [ 77%] Built target eye_in_hand_interfaces__py
+[5.414s] [ 80%] [32mBuilding C object CMakeFiles/eye_in_hand_interfaces__rosidl_generator_py.dir/rosidl_generator_py/eye_in_hand_interfaces/action/_start_robot_s.c.o[0m
+[5.575s] [ 82%] [32m[1mLinking C shared library libeye_in_hand_interfaces__rosidl_generator_py.so[0m
+[5.609s] [ 82%] Built target eye_in_hand_interfaces__rosidl_generator_py
+[5.627s] [ 91%] [32mBuilding C object CMakeFiles/eye_in_hand_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/eye_in_hand_interfaces/_eye_in_hand_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.627s] [ 91%] [32mBuilding C object CMakeFiles/eye_in_hand_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/eye_in_hand_interfaces/_eye_in_hand_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.627s] [ 91%] [32mBuilding C object CMakeFiles/eye_in_hand_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/eye_in_hand_interfaces/_eye_in_hand_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[5.730s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/eye_in_hand_interfaces/eye_in_hand_interfaces_s__rosidl_typesupport_c.so[0m
+[5.732s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/eye_in_hand_interfaces/eye_in_hand_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[5.734s] [100%] [32m[1mLinking C shared module rosidl_generator_py/eye_in_hand_interfaces/eye_in_hand_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[5.757s] [100%] Built target eye_in_hand_interfaces_s__rosidl_typesupport_c
+[5.757s] [100%] Built target eye_in_hand_interfaces_s__rosidl_typesupport_introspection_c
+[5.761s] [100%] Built target eye_in_hand_interfaces_s__rosidl_typesupport_fastrtps_c
+[5.770s] Invoked command in '/home/student/Git-projects/eye_in_hand_A5/build/eye_in_hand_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/my_ur_ws/install/robotiq_app:/home/student/my_ur_ws/install/my_ur_demo:/home/student/my_ur_ws/install/my_ur_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/student/Git-projects/eye_in_hand_A5/build/eye_in_hand_interfaces -- -j8 -l8
+[5.778s] Invoking command in '/home/student/Git-projects/eye_in_hand_A5/build/eye_in_hand_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/my_ur_ws/install/robotiq_app:/home/student/my_ur_ws/install/my_ur_demo:/home/student/my_ur_ws/install/my_ur_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/student/Git-projects/eye_in_hand_A5/build/eye_in_hand_interfaces
+[5.786s] -- Install configuration: ""
+[5.786s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/ament_index/resource_index/rosidl_interfaces/eye_in_hand_interfaces
+[5.787s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/action/StartRobot.json
+[5.787s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/include/eye_in_hand_interfaces/eye_in_hand_interfaces
+[5.787s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/include/eye_in_hand_interfaces/eye_in_hand_interfaces/msg
+[5.787s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/include/eye_in_hand_interfaces/eye_in_hand_interfaces/msg/rosidl_generator_c__visibility_control.h
+[5.787s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/include/eye_in_hand_interfaces/eye_in_hand_interfaces/action
+[5.787s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/include/eye_in_hand_interfaces/eye_in_hand_interfaces/action/detail
+[5.787s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/include/eye_in_hand_interfaces/eye_in_hand_interfaces/action/detail/start_robot__functions.h
+[5.787s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/include/eye_in_hand_interfaces/eye_in_hand_interfaces/action/detail/start_robot__functions.c
+[5.787s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/include/eye_in_hand_interfaces/eye_in_hand_interfaces/action/detail/start_robot__type_support.h
+[5.787s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/include/eye_in_hand_interfaces/eye_in_hand_interfaces/action/detail/start_robot__struct.h
+[5.787s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/include/eye_in_hand_interfaces/eye_in_hand_interfaces/action/detail/start_robot__type_support.c
+[5.788s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/include/eye_in_hand_interfaces/eye_in_hand_interfaces/action/detail/start_robot__description.c
+[5.788s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/include/eye_in_hand_interfaces/eye_in_hand_interfaces/action/start_robot.h
+[5.788s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/environment/library_path.sh
+[5.788s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/environment/library_path.dsv
+[5.788s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/lib/libeye_in_hand_interfaces__rosidl_generator_c.so
+[5.788s] -- Set non-toolchain portion of runtime path of "/home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/lib/libeye_in_hand_interfaces__rosidl_generator_c.so" to ""
+[5.788s] -- Up-to-date: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/include/eye_in_hand_interfaces/eye_in_hand_interfaces
+[5.788s] -- Up-to-date: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/include/eye_in_hand_interfaces/eye_in_hand_interfaces/msg
+[5.788s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/include/eye_in_hand_interfaces/eye_in_hand_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.788s] -- Up-to-date: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/include/eye_in_hand_interfaces/eye_in_hand_interfaces/action
+[5.789s] -- Up-to-date: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/include/eye_in_hand_interfaces/eye_in_hand_interfaces/action/detail
+[5.789s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/include/eye_in_hand_interfaces/eye_in_hand_interfaces/action/detail/start_robot__rosidl_typesupport_fastrtps_c.h
+[5.789s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/lib/libeye_in_hand_interfaces__rosidl_typesupport_fastrtps_c.so
+[5.789s] -- Set non-toolchain portion of runtime path of "/home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/lib/libeye_in_hand_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[5.789s] -- Up-to-date: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/include/eye_in_hand_interfaces/eye_in_hand_interfaces
+[5.789s] -- Up-to-date: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/include/eye_in_hand_interfaces/eye_in_hand_interfaces/msg
+[5.789s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/include/eye_in_hand_interfaces/eye_in_hand_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.789s] -- Up-to-date: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/include/eye_in_hand_interfaces/eye_in_hand_interfaces/action
+[5.789s] -- Up-to-date: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/include/eye_in_hand_interfaces/eye_in_hand_interfaces/action/detail
+[5.789s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/include/eye_in_hand_interfaces/eye_in_hand_interfaces/action/detail/start_robot__rosidl_typesupport_introspection_c.h
+[5.789s] -- Up-to-date: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/include/eye_in_hand_interfaces/eye_in_hand_interfaces/action/detail/start_robot__type_support.c
+[5.789s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/lib/libeye_in_hand_interfaces__rosidl_typesupport_introspection_c.so
+[5.789s] -- Set non-toolchain portion of runtime path of "/home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/lib/libeye_in_hand_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[5.789s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/lib/libeye_in_hand_interfaces__rosidl_typesupport_c.so
+[5.790s] -- Set non-toolchain portion of runtime path of "/home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/lib/libeye_in_hand_interfaces__rosidl_typesupport_c.so" to ""
+[5.790s] -- Up-to-date: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/include/eye_in_hand_interfaces/eye_in_hand_interfaces
+[5.790s] -- Up-to-date: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/include/eye_in_hand_interfaces/eye_in_hand_interfaces/msg
+[5.790s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/include/eye_in_hand_interfaces/eye_in_hand_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.790s] -- Up-to-date: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/include/eye_in_hand_interfaces/eye_in_hand_interfaces/action
+[5.790s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/include/eye_in_hand_interfaces/eye_in_hand_interfaces/action/start_robot.hpp
+[5.790s] -- Up-to-date: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/include/eye_in_hand_interfaces/eye_in_hand_interfaces/action/detail
+[5.790s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/include/eye_in_hand_interfaces/eye_in_hand_interfaces/action/detail/start_robot__type_support.hpp
+[5.790s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/include/eye_in_hand_interfaces/eye_in_hand_interfaces/action/detail/start_robot__traits.hpp
+[5.790s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/include/eye_in_hand_interfaces/eye_in_hand_interfaces/action/detail/start_robot__struct.hpp
+[5.790s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/include/eye_in_hand_interfaces/eye_in_hand_interfaces/action/detail/start_robot__builder.hpp
+[5.790s] -- Up-to-date: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/include/eye_in_hand_interfaces/eye_in_hand_interfaces
+[5.790s] -- Up-to-date: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/include/eye_in_hand_interfaces/eye_in_hand_interfaces/msg
+[5.790s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/include/eye_in_hand_interfaces/eye_in_hand_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.790s] -- Up-to-date: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/include/eye_in_hand_interfaces/eye_in_hand_interfaces/action
+[5.790s] -- Up-to-date: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/include/eye_in_hand_interfaces/eye_in_hand_interfaces/action/detail
+[5.790s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/include/eye_in_hand_interfaces/eye_in_hand_interfaces/action/detail/start_robot__rosidl_typesupport_fastrtps_cpp.hpp
+[5.791s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/include/eye_in_hand_interfaces/eye_in_hand_interfaces/action/detail/dds_fastrtps
+[5.791s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/lib/libeye_in_hand_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[5.791s] -- Set non-toolchain portion of runtime path of "/home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/lib/libeye_in_hand_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.791s] -- Up-to-date: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/include/eye_in_hand_interfaces/eye_in_hand_interfaces
+[5.791s] -- Up-to-date: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/include/eye_in_hand_interfaces/eye_in_hand_interfaces/action
+[5.791s] -- Up-to-date: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/include/eye_in_hand_interfaces/eye_in_hand_interfaces/action/detail
+[5.791s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/include/eye_in_hand_interfaces/eye_in_hand_interfaces/action/detail/start_robot__type_support.cpp
+[5.791s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/include/eye_in_hand_interfaces/eye_in_hand_interfaces/action/detail/start_robot__rosidl_typesupport_introspection_cpp.hpp
+[5.791s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/lib/libeye_in_hand_interfaces__rosidl_typesupport_introspection_cpp.so
+[5.791s] -- Set non-toolchain portion of runtime path of "/home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/lib/libeye_in_hand_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[5.791s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/lib/libeye_in_hand_interfaces__rosidl_typesupport_cpp.so
+[5.792s] -- Set non-toolchain portion of runtime path of "/home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/lib/libeye_in_hand_interfaces__rosidl_typesupport_cpp.so" to ""
+[5.792s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/environment/pythonpath.sh
+[5.792s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/environment/pythonpath.dsv
+[5.792s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/lib/python3.12/site-packages/eye_in_hand_interfaces-0.0.0-py3.12.egg-info
+[5.792s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/lib/python3.12/site-packages/eye_in_hand_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[5.792s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/lib/python3.12/site-packages/eye_in_hand_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[5.792s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/lib/python3.12/site-packages/eye_in_hand_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[5.792s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/lib/python3.12/site-packages/eye_in_hand_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[5.792s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/lib/python3.12/site-packages/eye_in_hand_interfaces
+[5.792s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/lib/python3.12/site-packages/eye_in_hand_interfaces/eye_in_hand_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[5.792s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/lib/python3.12/site-packages/eye_in_hand_interfaces/eye_in_hand_interfaces_s__rosidl_typesupport_introspection_c.so
+[5.792s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/lib/python3.12/site-packages/eye_in_hand_interfaces/__init__.py
+[5.792s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/lib/python3.12/site-packages/eye_in_hand_interfaces/_eye_in_hand_interfaces_s.ep.rosidl_typesupport_c.c
+[5.793s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/lib/python3.12/site-packages/eye_in_hand_interfaces/_eye_in_hand_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.793s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/lib/python3.12/site-packages/eye_in_hand_interfaces/eye_in_hand_interfaces_s__rosidl_typesupport_c.so
+[5.793s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/lib/python3.12/site-packages/eye_in_hand_interfaces/action
+[5.793s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/lib/python3.12/site-packages/eye_in_hand_interfaces/action/_start_robot_s.c
+[5.793s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/lib/python3.12/site-packages/eye_in_hand_interfaces/action/__init__.py
+[5.793s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/lib/python3.12/site-packages/eye_in_hand_interfaces/action/_start_robot.py
+[5.793s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/lib/python3.12/site-packages/eye_in_hand_interfaces/_eye_in_hand_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[5.832s] Listing '/home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/lib/python3.12/site-packages/eye_in_hand_interfaces'...
+[5.832s] Compiling '/home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/lib/python3.12/site-packages/eye_in_hand_interfaces/__init__.py'...
+[5.832s] Listing '/home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/lib/python3.12/site-packages/eye_in_hand_interfaces/action'...
+[5.833s] Compiling '/home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/lib/python3.12/site-packages/eye_in_hand_interfaces/action/__init__.py'...
+[5.833s] Compiling '/home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/lib/python3.12/site-packages/eye_in_hand_interfaces/action/_start_robot.py'...
+[5.837s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/lib/python3.12/site-packages/eye_in_hand_interfaces/eye_in_hand_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[5.838s] -- Set non-toolchain portion of runtime path of "/home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/lib/python3.12/site-packages/eye_in_hand_interfaces/eye_in_hand_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[5.838s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/lib/python3.12/site-packages/eye_in_hand_interfaces/eye_in_hand_interfaces_s__rosidl_typesupport_introspection_c.so
+[5.838s] -- Set non-toolchain portion of runtime path of "/home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/lib/python3.12/site-packages/eye_in_hand_interfaces/eye_in_hand_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[5.838s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/lib/python3.12/site-packages/eye_in_hand_interfaces/eye_in_hand_interfaces_s__rosidl_typesupport_c.so
+[5.838s] -- Set non-toolchain portion of runtime path of "/home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/lib/python3.12/site-packages/eye_in_hand_interfaces/eye_in_hand_interfaces_s__rosidl_typesupport_c.so" to ""
+[5.838s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/lib/libeye_in_hand_interfaces__rosidl_generator_py.so
+[5.838s] -- Set non-toolchain portion of runtime path of "/home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/lib/libeye_in_hand_interfaces__rosidl_generator_py.so" to ""
+[5.839s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/ament_index/resource_index/rust_packages/eye_in_hand_interfaces
+[5.839s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/rust
+[5.839s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/rust/src
+[5.839s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/rust/src/lib.rs
+[5.839s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/rust/src/action.rs
+[5.839s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/rust/src/action
+[5.839s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/rust/src/action/rmw.rs
+[5.839s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/rust/Cargo.toml
+[5.839s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/rust/build.rs
+[5.839s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/action/StartRobot.idl
+[5.839s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/action/StartRobot.action
+[5.839s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/ament_index/resource_index/package_run_dependencies/eye_in_hand_interfaces
+[5.839s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/ament_index/resource_index/parent_prefix_path/eye_in_hand_interfaces
+[5.839s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/environment/ament_prefix_path.sh
+[5.839s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/environment/ament_prefix_path.dsv
+[5.839s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/environment/path.sh
+[5.839s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/environment/path.dsv
+[5.840s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/local_setup.bash
+[5.840s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/local_setup.sh
+[5.840s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/local_setup.zsh
+[5.840s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/local_setup.dsv
+[5.840s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/package.dsv
+[5.840s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/ament_index/resource_index/packages/eye_in_hand_interfaces
+[5.840s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/cmake/export_eye_in_hand_interfaces__rosidl_generator_cExport.cmake
+[5.840s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/cmake/export_eye_in_hand_interfaces__rosidl_generator_cExport-noconfig.cmake
+[5.840s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/cmake/export_eye_in_hand_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[5.840s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/cmake/export_eye_in_hand_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.840s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/cmake/eye_in_hand_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[5.840s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/cmake/eye_in_hand_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.840s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/cmake/eye_in_hand_interfaces__rosidl_typesupport_cExport.cmake
+[5.841s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/cmake/eye_in_hand_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[5.841s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/cmake/export_eye_in_hand_interfaces__rosidl_generator_cppExport.cmake
+[5.841s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/cmake/export_eye_in_hand_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.841s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/cmake/export_eye_in_hand_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.841s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/cmake/eye_in_hand_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[5.841s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/cmake/eye_in_hand_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.841s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/cmake/eye_in_hand_interfaces__rosidl_typesupport_cppExport.cmake
+[5.841s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/cmake/eye_in_hand_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[5.841s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/cmake/export_eye_in_hand_interfaces__rosidl_generator_pyExport.cmake
+[5.841s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/cmake/export_eye_in_hand_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[5.841s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/cmake/rosidl_cmake-extras.cmake
+[5.842s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.842s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.842s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[5.842s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[5.842s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.842s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.842s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/cmake/eye_in_hand_interfacesConfig.cmake
+[5.842s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/cmake/eye_in_hand_interfacesConfig-version.cmake
+[5.842s] -- Installing: /home/student/Git-projects/eye_in_hand_A5/install/eye_in_hand_interfaces/share/eye_in_hand_interfaces/package.xml
+[5.844s] Invoked command in '/home/student/Git-projects/eye_in_hand_A5/build/eye_in_hand_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/my_ur_ws/install/robotiq_app:/home/student/my_ur_ws/install/my_ur_demo:/home/student/my_ur_ws/install/my_ur_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/student/Git-projects/eye_in_hand_A5/build/eye_in_hand_interfaces

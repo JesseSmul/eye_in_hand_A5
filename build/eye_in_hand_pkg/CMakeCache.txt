@@ -380,7 +380,7 @@ eye_in_hand_pkg_BINARY_DIR:STATIC=/home/student/Git-projects/eye_in_hand_A5/buil
 eye_in_hand_pkg_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-eye_in_hand_pkg_SOURCE_DIR:STATIC=/home/student/Git-projects/eye_in_hand_A5/eye_in_hand_pkg
+eye_in_hand_pkg_SOURCE_DIR:STATIC=/home/student/Git-projects/eye_in_hand_A5/src/eye_in_hand_pkg
 
 //The directory containing a CMake configuration file for fastcdr.
 fastcdr_DIR:PATH=/opt/ros/jazzy/lib/cmake/fastcdr
@@ -605,7 +605,7 @@ CMAKE_GENERATOR_PLATFORM:INTERNAL=
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/student/Git-projects/eye_in_hand_A5/eye_in_hand_pkg
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/student/Git-projects/eye_in_hand_A5/src/eye_in_hand_pkg
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/Git-projects/eye_in_hand_A5/eye_in_hand_pkg
+CMAKE_SOURCE_DIR = /home/student/Git-projects/eye_in_hand_A5/src/eye_in_hand_pkg
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/student/Git-projects/eye_in_hand_A5/build/eye_in_hand_pkg
@@ -82,6 +82,6 @@ CMakeFiles/eye_in_hand_pkg_uninstall.dir/clean:
 .PHONY : CMakeFiles/eye_in_hand_pkg_uninstall.dir/clean
 
 CMakeFiles/eye_in_hand_pkg_uninstall.dir/depend:
-	cd /home/student/Git-projects/eye_in_hand_A5/build/eye_in_hand_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/Git-projects/eye_in_hand_A5/eye_in_hand_pkg /home/student/Git-projects/eye_in_hand_A5/eye_in_hand_pkg /home/student/Git-projects/eye_in_hand_A5/build/eye_in_hand_pkg /home/student/Git-projects/eye_in_hand_A5/build/eye_in_hand_pkg /home/student/Git-projects/eye_in_hand_A5/build/eye_in_hand_pkg/CMakeFiles/eye_in_hand_pkg_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/student/Git-projects/eye_in_hand_A5/build/eye_in_hand_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/Git-projects/eye_in_hand_A5/src/eye_in_hand_pkg /home/student/Git-projects/eye_in_hand_A5/src/eye_in_hand_pkg /home/student/Git-projects/eye_in_hand_A5/build/eye_in_hand_pkg /home/student/Git-projects/eye_in_hand_A5/build/eye_in_hand_pkg /home/student/Git-projects/eye_in_hand_A5/build/eye_in_hand_pkg/CMakeFiles/eye_in_hand_pkg_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/eye_in_hand_pkg_uninstall.dir/depend
 

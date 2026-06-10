@@ -5,9 +5,9 @@
 #include <string.h>
 
 #include "eye_in_hand_interfaces/action/detail/start_robot__type_support.h"
-#include "eye_in_hand_interfaces/action/detail/start_robot__struct.h"
 #include "eye_in_hand_interfaces/action/detail/start_robot__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "eye_in_hand_interfaces/action/detail/start_robot__struct.h"
 
 #ifdef __cplusplus
 extern "C"
