@@ -18,3 +18,6 @@ class HMIStatus(Node):
     def status_callback(self, msg):
         self.latest_status = msg.data
         self.get_logger().info(f"Received status: {self.latest_status}")
+
+#----------------------------------------------------------------------
+# Subscriber van de robot_status topic

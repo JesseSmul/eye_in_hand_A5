@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "eye_in_hand_interfaces/action/StartRobot_Goal",
+      "fields": [
+        {
+          "name": "training_mode",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "eye_in_hand_interfaces/action/StartRobot_Goal",
+      "hash_string": "RIHS01_3cf1190171fbd8de6b456bbc9b38c3bc1486a55c6086d11e05aa6676a3b8794d"
+    }
+  ]
+}
