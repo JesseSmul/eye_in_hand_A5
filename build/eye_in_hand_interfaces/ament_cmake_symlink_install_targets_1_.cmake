@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/student/Git-projects/eye_in_hand_A5/build/eye_in_hand_interfaces/rosidl_generator_py/eye_in_hand_interfaces/eye_in_hand_interfaces_s__rosidl_typesupport_introspection_c.so" "TARGETS" "eye_in_hand_interfaces_s__rosidl_typesupport_introspection_c" "DESTINATION" "lib/python3.12/site-packages/eye_in_hand_interfaces")

@@ -1,4 +1,0 @@
-uint8 force
----
-bool success
-string message

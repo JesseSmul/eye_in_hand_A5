@@ -1,3 +1,0 @@
-/home/student/Git-projects/eye_in_hand_A5/install/serial/lib/libserial.a
-/home/student/Git-projects/eye_in_hand_A5/install/serial/share/serial/cmake/export_serialExport.cmake
-/home/student/Git-projects/eye_in_hand_A5/install/serial/share/serial/cmake/export_serialExport-noconfig.cmake

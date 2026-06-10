@@ -1,7 +1,0 @@
-{
-  "package_name": "my_robotiq_controller",
-  "non_idl_tuples": [
-    "/home/student/Git-projects/eye_in_hand_A5/src/ros2_robotiq_gripper/my_robotiq_controller:srv/SetForce.srv",
-    "/home/student/Git-projects/eye_in_hand_A5/src/ros2_robotiq_gripper/my_robotiq_controller:srv/SetSpeed.srv"
-  ]
-}
